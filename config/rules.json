@@ -1,0 +1,39 @@
+{
+  "_comment": "กฎกลางของระบบ — ค่าทุกตัวคัดลอกมาจาก index.html ตรง ๆ ไม่ได้แก้ค่าใด ๆ",
+
+  "vat_rate": 0.07,
+  "_vat_rate_note": "index.html: const VAT_RATE = 0.07",
+
+  "biz_day_start_hour": 0,
+  "_biz_day_start_hour_note": "index.html: const BIZ_DAY_START_HOUR = 0 (0 = เที่ยงคืนถึงเที่ยงคืน | 1 = ตัดรอบตี 1)",
+
+  "week_start_day": 0,
+  "_week_start_day_note": "0 = อาทิตย์ (weekStartOf ใช้ d.getDay() ซึ่ง 0 = อาทิตย์)",
+
+  "cancel_stale_days": 7,
+  "_cancel_stale_days_note": "index.html: const CANCEL_STALE_DAYS = 7",
+
+  "cancel_amount_match": true,
+  "_cancel_amount_match_note": "เปิดชั้นจับคู่ที่ 6 (วันที่+ยอดเงิน) — index.html: let cancelAmountMatch = true",
+
+  "phone_country_code_strict": false,
+  "_phone_country_code_strict_note": "false = เหมือน index.html เดิมทุกประการ. true = ตัด +66/66 เฉพาะตอนอยู่หัวเบอร์จริง ๆ แก้เคสเบอร์ที่มี 66 อยู่กลางเบอร์ เช่น 0866666666 ที่ของเดิมแกะจากข้อความไม่เจอ. กระทบเฉพาะการจับคู่ลูกค้า ไม่กระทบยอดขาย",
+  "mkp_amount_epsilon": 0.02,
+
+  "_moved_manual_cancel_overrides_amount": "ย้ายไป config/revenue_rules.json -> layers.manual_cancel_amount แล้ว (10 ก.ย. 2026) เพราะการเขียนทับยอดดิบใน orders ขัดกับหลักการ raw/adjustment/reported",
+
+
+  "pos_add_vat": true,
+  "pos_vat_rate": 0.07,
+  "pos_shop_name": "Hylme",
+  "pos_branch": "สำนักงานใหญ่",
+
+  "points_per_baht": 25,
+  "_points_note": "ยอดซื้อทุก 25 บาท = 1 แต้ม (FLOOR)",
+
+  "db_path": "../hylme_engine/hylme.db",
+  "_db_path_note": "path ของ master database เทียบจากโฟลเดอร์ hylme_pipeline",
+
+  "archive_after_load": true,
+  "_archive_note": "true = ย้ายไฟล์ที่โหลดเสร็จไป data/archive/ | false = ทิ้งไว้ที่เดิม"
+}

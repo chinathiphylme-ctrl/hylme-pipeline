@@ -1,0 +1,105 @@
+{
+  "_comment": "ช่องทางขาย / ทีม — คัดลอกจาก index.html (CH, TEAM3, MC_CHANNEL_ALIAS, MARKETPLACE_RE)",
+
+  "mc_sales_channel_codes": {
+    "telesales": "3044",
+    "ig": "3043",
+    "line_official": "3042",
+    "line_privilege": "3041",
+    "fb_non": "3040",
+    "fb_piw": "3039",
+    "fb_kaimun": "3038",
+    "fb_hylme": "3037"
+  },
+  "_codes_note": "รหัสช่องทางขายที่ MyCloud export ออกมา — 3044 Telesales, 3043 Instagram Hylme, 3042 LINE Official, 3041 LINE Privilege, 3040 FB ครบจบเรื่องนอน, 3039 FB ครบจบเรื่องผิว, 3038 FB ครบจบเรื่องไขมัน, 3037 Facebook Hylme",
+
+  "marketplace_re": "shopee|tiktok|tik tok|lazada|ช้อปปี้|ลาซาด้า",
+  "mkp_channel_re": "shopee|tiktok|tik\\s*tok|lazada|ช้อปปี้|ลาซาด้า",
+  "_marketplace_note": "ช่องทางมาร์เก็ตเพลสไม่อยู่ในรหัสช่องทางขายของ MC -> ปล่อยช่อง Shop Sales channel ว่าง และไม่นับเป็นข้อมูลไม่ครบ",
+
+  "mc_channel_alias": [
+    ["shopee", "Shopee"],
+    ["tiktok|tt\\s*shop", "Tiktok"],
+    ["lazada", "Lazada"],
+    ["line", "LINE"],
+    ["facebook|\\bfb\\b", "Facebook"],
+    ["instagram|\\big\\b", "Instagram"],
+    ["shopify|website|\\bweb\\b|เว็บ", "Website"],
+    ["telesales|โทร", "Telesales"]
+  ],
+
+  "crm_channel_label": "CRM (LINE)",
+  "telesales_channel_label": "Telesales (โทร)",
+  "unknown_channel_label": "ไม่ระบุช่องทาง",
+
+  "teams": [
+    {
+      "key": "admin",
+      "name": "Admin",
+      "sub": "Facebook + Instagram",
+      "color": "#1877F2",
+      "channels": [
+        "Facebook Hylme",
+        "Facebook Hylme ครบจบเรื่องไขมัน",
+        "Facebook Hylme ครบจบเรื่องนอน",
+        "Facebook Hylme ครบจบเรื่องผิว",
+        "Instagram"
+      ],
+      "people": ["กานต์ปริยา ช่างเกิด", "จิรัชฐ์โชติ สะอาดยิ่ง"]
+    },
+    {
+      "key": "crm",
+      "name": "CRM",
+      "sub": "LINE ทุกช่องทาง",
+      "color": "#06C755",
+      "channels": ["CRM (LINE)"],
+      "people": ["ธันญณัฐภ์ น้อยปุก"]
+    },
+    {
+      "key": "telesales",
+      "name": "Telesales",
+      "sub": "โทรขาย",
+      "color": "#E8A33D",
+      "channels": ["Telesales (โทร)"],
+      "people": ["ชิตานุช จิตรานนท์"]
+    }
+  ],
+
+  "page_defs": [
+    { "key": "fb_hylme",  "page": "FB Hylme",           "platform": "Facebook",  "color": "#1877F2" },
+    { "key": "fb_kaimun", "page": "FB ครบจบเรื่องไขมัน", "platform": "Facebook",  "color": "#1877F2" },
+    { "key": "fb_non",    "page": "FB ครบจบเรื่องนอน",   "platform": "Facebook",  "color": "#1877F2" },
+    { "key": "fb_piw",    "page": "FB ครบจบเรื่องผิว",   "platform": "Facebook",  "color": "#1877F2" },
+    { "key": "line_priv", "page": "LINE Privilege",      "platform": "Line",      "color": "#06C755" },
+    { "key": "line_off",  "page": "LINE Official",       "platform": "Line",      "color": "#06C755" },
+    { "key": "ig",        "page": "Instagram",           "platform": "Instagram", "color": "#E1306C" }
+  ],
+  "_page_defs_note": "index.html: PAGE_DEFS (บรรทัด 4331) — ใช้จับคู่ 'คนทักเข้ามา' จากไฟล์สถิติหน้า กับ 'ปิดการขาย' จากไฟล์ออเดอร์ ลำดับนี้คือลำดับแสดงผล",
+
+  "team_page_keys": {
+    "admin": ["fb_hylme", "fb_kaimun", "fb_non", "fb_piw", "ig"],
+    "crm": ["line_priv", "line_off"],
+    "telesales": []
+  },
+  "_team_page_keys_note": "index.html: TEAM3[].pageKeys — ทีม Telesales ไม่มีเพจในไฟล์สถิติหน้า จึงไม่แสดง Conversion",
+
+  "metro_provinces": [
+    "กรุงเทพมหานคร",
+    "นนทบุรี",
+    "ปทุมธานี",
+    "สมุทรปราการ",
+    "สมุทรสาคร",
+    "นครปฐม"
+  ],
+  "_metro_note": "กรุงเทพ + ปริมณฑล -> DHL, นอกเหนือจากนี้ -> EMS",
+
+  "delivery_modes": {
+    "cod_metro": "DHL COD (MC)",
+    "cod_upcountry": "EMS COD (MC)",
+    "prepaid_metro": "DHL (MC)",
+    "prepaid_upcountry": "EMS (MC)"
+  },
+
+  "mkp_factor": {},
+  "_mkp_factor_note": "ตัวคูณสำรองรายเดือน (ช่องทาง|YYYY-MM -> ตัวคูณ) ใช้เฉพาะออเดอร์ที่ยังไม่มียอดจริงในตาราง revenue_truth. ค่าเดิม 1,275 รายการจาก MKP_TRUTH ถูกย้ายเข้า revenue_truth แล้วโดย migrate_mkp_truth.py"
+}

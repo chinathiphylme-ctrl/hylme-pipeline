@@ -1,0 +1,87 @@
+{
+  "_comment": "กฎการกระทบยอดรายได้ — พอร์ตจาก index.html recomputeDataset() บรรทัด 6546-6632",
+  "_principle": "orders เก็บยอดดิบเท่านั้น การปรับทุกครั้งเป็นแถวใน revenue_adjustment และยอดที่แสดงอยู่ใน order_revenue",
+
+  "enabled": true,
+
+  "layers": {
+    "mkp_settled": true,
+    "mkp_factor": true,
+    "daily_calibration": true,
+    "manual_cancel_amount": true,
+    "manual_override": true
+  },
+  "_layers_note": "ปิดทีละชั้นได้ เช่นอยากดูว่าถ้าไม่เกลี่ยรายวันจะเป็นยังไง ตั้ง daily_calibration = false",
+
+  "mkp_fix_until": "2026-05",
+  "_mkp_fix_until_note": "index.html: MKP_FIX_UNTIL — มิ.ย. เป็นต้นไปทีมคีย์เอง ซึ่งเป็นยอดจริงอยู่แล้ว",
+
+  "mkp_channels": ["Shopee", "Lazada", "Tiktok Shop", "Tiktok"],
+  "_mkp_channels_note": "index.html: MKP_CHANNELS = {Shopee, Lazada, Tiktok Shop} — เพิ่ม Tiktok เพราะ canon channel ของ pipeline ใช้ชื่อนี้",
+
+  "calibration_until": "2026-06",
+  "_calibration_until_note": "เกลี่ยรายวันถึงเดือนนี้เท่านั้น — หลังจากนี้ทีมคีย์ข้อมูลจริงเข้าระบบแล้ว (ยืนยันโดยผู้ใช้ 10 ก.ย. 2026) ถ้าจะขยายให้เปลี่ยนค่านี้ แล้วโหลดรายงาน Excel ของเดือนนั้นเข้ามา",
+
+  "calibration_requires_target": true,
+  "_calibration_requires_target_note": "วันไหนไม่มีเป้าใน sales_report_day = ใช้ยอดดิบ ไม่เกลี่ย",
+
+  "xl_buckets": ["Facebook", "Sale Page", "Shopee", "Line OA", "Tiktok", "Lazada", "Instagram", "CRM", "Other"],
+  "_xl_buckets_note": "index.html: XL_BUCKETS — ตรงกับคอลัมน์ L..T ของรายงานขาย Excel ตามลำดับ",
+
+  "xl_gs_map": {
+    "Facebook": "Facebook",
+    "WooCommerce": "Sale Page",
+    "Website": "Sale Page",
+    "Shopee": "Shopee",
+    "Line OA": "Line OA",
+    "Tiktok Shop": "Tiktok",
+    "Lazada": "Lazada",
+    "Instagram": "Instagram",
+    "CRM": "CRM",
+    "Other": "Other",
+    "Call": "Other"
+  },
+  "_xl_gs_map_note": "index.html: XL_GS_MAP — ช่องทางดิบจากไฟล์ต้นทาง -> ช่องทางในรายงานขาย",
+
+  "xl_channel_map": {
+    "Facebook Hylme": "Facebook",
+    "Facebook Hylme ครบจบเรื่องไขมัน": "Facebook",
+    "Facebook Hylme ครบจบเรื่องนอน": "Facebook",
+    "Facebook Hylme ครบจบเรื่องผิว": "Facebook",
+    "Instagram": "Instagram",
+    "Shopee": "Shopee",
+    "Tiktok": "Tiktok",
+    "Lazada": "Lazada",
+    "Website": "Sale Page",
+    "CRM": "CRM",
+    "CRM (LINE)": "Line OA",
+    "Telesales (โทร)": "Other"
+  },
+  "_xl_channel_map_note": "ชั้นสำรองที่เพิ่มใหม่ — ออเดอร์เก่าในฐานข้อมูลไม่มี Lead Intro มีแต่คอลัมน์ channel จึงต้องแปลงจาก channel แทน. 'ไม่ระบุช่องทาง' ตั้งใจไม่ใส่ เพื่อให้ตกไปกองรอจัดเหมือนเดิม (index.html คืน null)",
+
+  "respect_mkp_lock": false,
+  "_respect_mkp_lock_note": "index.html บรรทัด 6556 ประกาศตัวแปร locked ไว้กัน marketplace ไม่ให้โดนเกลี่ยในชั้นที่ 3 แต่ไม่เคยถูกเรียกใช้เลย (โค้ดตาย) พฤติกรรมจริงคือ marketplace โดนเกลี่ยด้วย | false = ทำเหมือนของเดิมเป๊ะ ตัวเลขตรงกัน | true = เคารพ lock ตามเจตนาเดิม ยอดที่แพลตฟอร์มจ่ายจริงจะไม่ถูกแตะ แต่ตัวเลขจะต่างจากแดชบอร์ดเดิม",
+
+  "calibration_max_ratio": 0,
+  "_calibration_max_ratio_note": "ตอนนี้ตั้ง 0 = ปิดเพดาน เพื่อให้ยอด ม.ค.-มิ.ย. ตรงรายงาน Excel เป๊ะ (reproduce ระบบเดิม). ถ้าวันหลังโหลดไฟล์ย้อนหลังมาไม่ครบเดือน ให้ตั้งกลับเป็น 5.0 เพื่อกันยอดพองผิด. เพดานการเกลี่ยรายวัน x ช่องทาง. ถ้ายอดดิบห่างจากเป้าเกิน 5 เท่า (หรือน้อยกว่า 1/5) จะไม่เกลี่ยช่องทางนั้นของวันนั้น ปล่อยให้ยอดดิบเป็นยอดที่แสดง แล้วขึ้นเตือนในรายงาน. ป้องกันเคสโหลดไฟล์ต้นทางมาไม่ครบแล้วออเดอร์ไม่กี่ใบถูกดันให้พองผิดปกติ. ใส่ 0 เพื่อปิดเพดาน (เกลี่ยเสมอ)",
+  "large_ratio_warn": 0.2,
+  "_large_ratio_warn_note": "เตือนเมื่อออเดอร์ถูกปรับเกิน ±20% — มักแปลว่าจับช่องทางผิด",
+
+  "sales_report_channel_columns": {
+    "12": "Facebook",
+    "13": "Sale Page",
+    "14": "Shopee",
+    "15": "Line OA",
+    "16": "Tiktok",
+    "17": "Lazada",
+    "18": "Instagram",
+    "19": "CRM",
+    "20": "Other"
+  },
+  "sales_report_col_return": 9,
+  "sales_report_col_upsell": 21,
+  "sales_report_col_total": 22,
+  "_sales_report_note": "เลขคอลัมน์ (1 = A) ของไฟล์ 'รายงานขายฮีลมี 2569' | I=ส่งคืนสำเร็จ U=Upsell V=ยอดรวม | คอลัมน์ K 'Facebook (คีย์)' ไม่ใช้ ใช้ L แทน",
+  "_sales_report_total_rule": "อ่านคอลัมน์ V ตรง ๆ ห้ามคำนวณเอง — พิสูจน์แล้วว่าสูตรในชีตไม่เท่ากันทุกแถว (15 วันจาก 181 ไม่บวก Upsell) การอ่านค่าตรง ๆ ตรงกับ DAY_TARGET เดิม 181/181 วัน",
+  "_sales_report_channel_rule": "เป้ารายช่องทาง = ค่าในคอลัมน์นั้น x (V / ผลรวม L:T) — Upsell ไม่อยู่ในตัวหาร | พิสูจน์แล้วตรงกับ DAY_CH_TARGET เดิม 946/946 ช่อง (คลาดเคลื่อนสูงสุด 0.05 บาท จากการปัดเศษ)"
+}

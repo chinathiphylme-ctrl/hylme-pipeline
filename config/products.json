@@ -1,0 +1,54 @@
+{
+  "_comment": "สินค้า / SKU — คัดลอกจาก index.html (PANCAKE_SKU_NAME, PREORDER_SKUS, OLIVE_*, PRODUCT_ORDER, PRODUCT_ALIASES)",
+
+  "sku_to_name": {
+    "HM-OL-01": "Hylme Organic Extra Virgin Olive Oil",
+    "HM-DOB-01": "Hylme Daily Oils Blend",
+    "HM-MNS-01": "Hylme Magnesium Glycinate",
+    "HM-GT-01": "Hylme Gluta Collagen",
+    "HM-GB-01": "Hylme GABA"
+  },
+
+  "preorder_skus": ["HM-OL-01", "HM-GB-01"],
+  "preorder_name_keywords": ["olive", "โอลีฟ", "มะกอก", "gaba", "กาบา", "กาบ้า"],
+  "_preorder_note": "HM-OL-01 = Olive Oil, HM-GB-01 = GABA -> สถานะ OnHold (จอง) + หมายเหตุ Pre-order",
+
+  "olive_skus": ["HM-OL-01"],
+  "olive_name_keywords": ["olive", "โอลีฟ", "มะกอก"],
+  "olive_one_bottle_price": 300,
+  "_olive_note": "Olive Oil ซื้อ 1 ขวด -> ราคาในไฟล์ MC = 300 (รวมค่าส่ง) แทนราคาปกติ ~250 ใช้เฉพาะตอนเป็นสินค้าตัวเดียวในออเดอร์",
+
+  "product_order": [
+    "Daily Oils Blend",
+    "Magnesium Glycinate",
+    "Gluta Collagen",
+    "Organic Extra Virgin Olive Oil",
+    "GABA"
+  ],
+
+  "product_aliases": [
+    ["gaba|กาบา", "GABA"],
+    ["olive\\s*oil|น้ำมันมะกอก", "Organic Extra Virgin Olive Oil"],
+    ["gluta|collagen|กลูต้า|คอลลาเจน", "Gluta Collagen"],
+    ["magnesium|glycinate|แมกนีเซียม|ไกลซิเนท", "Magnesium Glycinate"],
+    ["da[il]{2}y|daily\\s*oils?\\s*blend", "Daily Oils Blend"],
+    ["premium\\s*box\\s*set", "Healme V-9 Mixed Oils"],
+    ["เอกสาร|ของแถม", "เอกสาร / ของแถม"]
+  ],
+  "_aliases_note": "ลำดับสำคัญ: เช็คจากชื่อเฉพาะไปหาชื่อกว้าง",
+
+  "re_s9": "(?:^|[^A-Za-z])S\\s*-\\s*9|(?:^|[^A-Za-z])S9(?![A-Za-z])",
+  "re_v9": "(?:^|[^A-Za-z])V\\s*-\\s*9|(?:^|[^A-Za-z])V9(?![A-Za-z])|^V\\s*-",
+  "name_s9": "Healme S-9 Balance",
+  "name_v9": "Healme V-9 Mixed Oils",
+  "name_s9_v9_set": "S-9 + V-9 (เซ็ตรวม)",
+  "name_unknown": "อื่น ๆ (ระบุชนิดไม่ได้)",
+
+  "non_product_labels": ["ส่วนต่างระดับบิล", "ส่วนลดระดับบิล", "ค่าธรรมเนียม"],
+  "_non_product_labels_note": "บรรทัดที่ไม่ใช่สินค้า แต่ระบบต้นทางใส่มาเป็นบรรทัดหนึ่งในออเดอร์ (ปรับเศษ/ส่วนลดระดับบิล/ค่าธรรมเนียม). บรรทัดพวกนี้ไม่มี SKU เป็นเรื่องปกติ จึงไม่ถูกนับเป็นปัญหา missing_sku. เทียบแบบ \"มีคำนี้อยู่ในชื่อ\" ไม่ใช่ต้องตรงทั้งชื่อ. ยอดเงินของบรรทัดยังอยู่ครบ ไม่ถูกตัดออก",
+  "shipping_labels": ["ค่าส่ง", "ค่าจัดส่ง", "shipping"],
+
+  "sku_default_approved": false,
+  "sku_approved_override": {},
+  "_approval_note": "index.html: defaultApproved() = false -> ทุก SKU เริ่มที่ OnHold (จอง). ใส่ SKU ใน sku_approved_override เป็น true เพื่อให้ออกเป็น Fulfill อัตโนมัติ เช่น {\"HM-DOB-01\": true}"
+}

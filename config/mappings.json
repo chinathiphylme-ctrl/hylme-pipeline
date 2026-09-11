@@ -1,0 +1,56 @@
+{
+  "_comment": "การจับคู่ชื่อคน — คัดลอกจาก SHOP CONFIG ใน index.html",
+
+  "sales_person_map": {
+    "ชิตานุช จิตรานนท์": "Chitanuch Chitranondh",
+    "กานต์ปริยา ช่างเกิด": "kanpriya",
+    "กรกวี โคตรธรรม": "kornkawee Khottham",
+    "Napob TH": "Napob Thawindech",
+    "ธันญณัฐภ์ น้อยปุก": "Thanyanat Noipuk",
+    "จิรัชฐ์โชติ สะอาดยิ่ง": "jiruschode",
+    "Nattawut Khonthon": "Nattawut Khonthon",
+    "Jiruschode Hylme": "jiruschode",
+    "TRADER": "Thanyanat Noipuk"
+  },
+  "_sales_person_note": "ชื่อใน CRM (Current User Name) -> ชื่อผู้ขายในระบบ MyCloud. 'TRADER' ยังไม่มี ID ผู้ขายของตัวเอง จึงออกเป็น Thanyanat Noipuk ไปก่อน. ชื่อที่ไม่รู้จัก = ใช้ชื่อเดิม",
+
+  "telesales_people": ["กรกวี โคตรธรรม", "ชิตานุช จิตรานนท์"],
+  "_telesales_people_note": "คนที่ทำ Telesales อย่างเดียว -> ช่องทางขายเป็น Telesales เสมอ",
+
+  "telesales_mc_person": "Chitanuch Chitranondh",
+  "_telesales_mc_note": "ออเดอร์ที่ช่องทางขาย = Telesales (3044) ใช้บัญชีผู้ขายกลางนี้เสมอ",
+
+  "pos_cashier_map": {
+    "ชิตานุช จิตรานนท์": "ก้อย",
+    "ธันญณัฐภ์ น้อยปุก": "แซน",
+    "จิรัชฐ์โชติ สะอาดยิ่ง": "คิว",
+    "กานต์ปริยา ช่างเกิด": "นุ่น",
+    "กรกวี โคตรธรรม": "kornkawee khotham"
+  },
+
+  "pancake_rep_map": {
+    "kanpriyanaka noon": "กานต์ปริยา ช่างเกิด",
+    "jiruschode hylme": "จิรัชฐ์โชติ สะอาดยิ่ง"
+  },
+  "_pancake_rep_note": "เทียบแบบตัวพิมพ์เล็ก (lowercase) — ชื่อจาก Pancake -> ชื่อเต็มให้ตรงกับข้อมูล Ready Planet เดิม",
+
+  "person_aliases": {
+    "jiruschode hylme": "จิรัชฐ์โชติ สะอาดยิ่ง",
+    "jiruschode": "จิรัชฐ์โชติ สะอาดยิ่ง",
+    "kanpriyanaka noon": "กานต์ปริยา ช่างเกิด",
+    "คิว": "จิรัชฐ์โชติ สะอาดยิ่ง",
+    "นุ่น": "กานต์ปริยา ช่างเกิด",
+    "แซน": "ธันญณัฐภ์ น้อยปุก",
+    "ก้อย": "ชิตานุช จิตรานนท์"
+  },
+  "_person_aliases_note": "รวมชื่อที่สะกดต่างกัน/ชื่อเล่น ให้เป็นคนเดียวกัน (index.html: PERSON_ALIASES) เทียบแบบตัวพิมพ์เล็ก",
+
+  "marketplace_rep": "Marketplace",
+  "_marketplace_rep_note": "ออเดอร์มาร์เก็ตเพลสไม่มีผู้ดูแลรายบุคคล",
+
+  "owner_default_channel": {
+    "Thanyanat Noipuk": "CRM (LINE)",
+    "TRADER": "Telesales (โทร)"
+  },
+  "_owner_default_channel_note": "ใช้เป็นทางสำรองเท่านั้น — เมื่อออเดอร์ไม่มี Lead Intro เลย และระบุช่องทางไม่ได้จริง ๆ ถึงจะถอยมาใช้ช่องทางประจำของผู้ดูแลคนนั้น. ถ้าออเดอร์มีข้อมูลช่องทางอยู่แล้ว ค่านี้ไม่ถูกใช้. TRADER: ยืนยันจากทีมแล้ว (11 ก.ย. 2026) ว่าดูแล 2 ช่องทางคือ LINE (CRM) กับ Telesales กติกาคือ ถ้าไม่ได้มาจาก LINE ก็คือ Telesales — ใบที่ไม่มี Lead Intro เลยจึงพิสูจน์ไม่ได้ว่ามาจาก LINE ค่าสำรองจึงเป็น Telesales. Thanyanat Noipuk: ยังเป็นการอนุมานจากสัดส่วน (85 จาก 91 ใบเป็น CRM (LINE)) ยังไม่ได้ยืนยันกับทีม. ลบชื่อออกจากลิสต์ได้ตลอด แล้วออเดอร์จะกลับไปเป็นไม่ระบุช่องทางเหมือนเดิม"
+}

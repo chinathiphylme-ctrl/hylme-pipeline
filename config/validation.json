@@ -1,0 +1,18 @@
+{
+  "_comment": "กติกาแยกปัญหา 'ข้อมูลปัจจุบันที่ยังแก้ต้นทางได้' ออกจาก 'ข้อมูลเก่าที่ปิดไปแล้ว'",
+
+  "live_sources": ["Pancake", "MyCloud", "Marketplace (MyCloud)"],
+  "_live_sources_note": "ค่าใน orders.source ของระบบที่ยังป้อนข้อมูลเข้ามาอยู่. ออเดอร์ที่ source อยู่ในลิสต์นี้ = current (เตือนตามปกติ เพราะยังตามไปแก้ต้นทางได้). นอกลิสต์ = historical (เก็บใน audit อย่างเดียว). ใช้ allowlist ไม่ใช่ blocklist เพราะ source เก่าที่โผล่มาใหม่ควรเงียบไว้ก่อน. ห้ามใช้ order_id prefix แทน — source เก่ามีตั้ง 12 แบบและไม่มี prefix ร่วมกัน. ห้ามใช้ data_state แทน — GoSell เป็น raw ส่วน Pancake เป็น pre_reconciled ซึ่งกลับด้านกับที่ต้องการ",
+
+  "historical_until": "2026-07-31",
+  "_historical_until_note": "ใช้เฉพาะกับปัญหาที่ 'สิ่งที่ถูกตรวจ' ไม่ใช่ออเดอร์ เช่น เดือนในรายงานขาย หรือคีย์ในทะเบียนยกเลิก. ออเดอร์ใช้ source เสมอ ไม่ใช้วันที่ เพราะ Pancake เริ่ม 23 ก.ค. ทับกับ Google Sheet ที่จบ 31 ก.ค.",
+
+  "stale_source_days": 21,
+  "_stale_source_days_note": "ถ้ามี source ที่ไม่ได้อยู่ใน live_sources แต่ยังมีออเดอร์ใหม่กว่า N วัน แปลว่าน่าจะเป็นระบบที่ยังใช้อยู่แต่ลืมใส่ในลิสต์ ระบบจะขึ้นเตือนให้",
+
+  "max_listed_per_rule": 5,
+  "_max_listed_per_rule_note": "จำนวนตัวอย่างที่พิมพ์ต่อกฎในรายงานหน้าจอ (รายการเต็มอยู่ในไฟล์ export)",
+
+  "log_rows_per_rule": 200,
+  "_log_rows_per_rule_note": "จำกัดจำนวนแถวที่เขียนลง validation_log ต่อกฎต่อรอบ กันไฟล์บวม. ทะเบียน validation_issue เก็บครบทุกรายการเสมอเพราะเป็น upsert ไม่โตตามรอบ"
+}

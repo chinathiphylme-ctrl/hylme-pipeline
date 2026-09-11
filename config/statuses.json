@@ -1,0 +1,56 @@
+{
+  "_comment": "สถานะออเดอร์ — คัดลอกจาก index.html (MC_CANCEL_RE, MC_OK_STATUS, PANCAKE_CANCEL_RE, RETURNED_RE, STATUS_*)",
+
+  "mc_cancel_re": "cancel|reject|refund|return|\\brts\\b|fail|void|expire|unpaid|lost|damag|ยกเลิก|ตีกลับ|คืนเงิน|คืนสินค้า",
+  "_mc_cancel_note": "สถานะที่ไม่นับเป็นยอดขาย — ตรวจจาก Order Status / MKP Order Status / Shipment Status",
+
+  "mc_ok_status": [
+    "", "n/a", "new", "pending", "confirmed", "instructed", "waiting", "processing", "processed",
+    "picking", "picked", "packing", "packed", "ready", "ready_to_ship", "readytoship",
+    "fulfilled", "fulfilling", "shipping", "shipped", "delivering", "delivered",
+    "completed", "complete", "done", "paid", "true", "false",
+
+    "waiting_confirm", "in_transit", "awaiting_collection",
+    "ship_to_drop_point", "in_progress", "to_confirm_receive",
+    "ready to pick", "ready to pack", "ready to ship"
+  ],
+  "_mc_ok_note": "สถานะที่รู้จักแล้วและถือว่านับเป็นยอดขาย — ที่ไม่อยู่ในนี้จะขึ้นเตือนให้ตรวจสอบ (เทียบแบบตัวพิมพ์เล็ก)",
+  "_mc_ok_added_2026_09": "9 สถานะท้ายเป็นของที่เพิ่มรอบ ก.ย. 2026 — ทั้งหมดไม่เข้าเงื่อนไข mc_cancel_re อยู่แล้ว จึงถูกนับเป็นยอดขายทั้งก่อนและหลังเพิ่ม การเพิ่มนี้เปลี่ยนแค่ข้อความเตือน ไม่เปลี่ยนตัวเลข | จำนวนที่พบจริงในไฟล์ 07.xlsx + 08.xlsx: SHIP_TO_DROP_POINT 1,075 · WAITING_CONFIRM 859 · IN_PROGRESS 735 · TO_CONFIRM_RECEIVE 54 · IN_TRANSIT 8 · Ready to pick/pack/ship 4 | AWAITING_COLLECTION ไม่พบในสองไฟล์นี้ แต่ใส่ไว้ล่วงหน้าตามที่ระบุ",
+  "_mc_ok_excluded": "CANCELLED / Canceled / CANCEL ไม่ใส่ในลิสต์นี้ เพราะเข้าเงื่อนไข mc_cancel_re = ยกเลิกจริง (และโค้ดเดิมก็ไม่เคยเตือนสถานะกลุ่มนี้ เพราะออกจากลูปก่อนถึงจุดที่เช็ค)",
+
+  "pancake_cancel_re": "ยกเลิก|ตีกลับ|คืนเงิน|คืนสินค้า|refund|cancel|return",
+
+  "returned_re": "ส่งคืน|returned",
+  "_returned_note": "ออเดอร์ส่งคืนสำเร็จต้องตัดออกจากยอดขาย — รายงานขายนับเฉพาะ รอดำเนินการ + กำลังดำเนินการ + สำเร็จ",
+
+  "status_fulfill": "Fulfill (อนุมัติ)",
+  "status_onhold": "OnHold (จอง)",
+
+  "cancel_manual_sheet_re": "ยกเลิก.*ไม่ได้ส่ง|cancel.*not.*ship",
+  "cancel_manual_name": "ออเดอร์ยกเลิก / ไม่ได้จัดส่ง",
+
+  "delivery_status_map": {
+    "delivered": "delivered",
+    "completed": "delivered",
+    "complete": "delivered",
+    "done": "delivered",
+    "shipped": "in_transit",
+    "shipping": "in_transit",
+    "delivering": "in_transit",
+    "cancel": "cancelled",
+    "cancelled": "cancelled",
+    "canceled": "cancelled",
+    "ยกเลิก": "cancelled",
+    "return": "returned",
+    "returned": "returned",
+    "rts": "returned",
+    "ตีกลับ": "returned",
+    "คืนสินค้า": "returned",
+    "reject": "refused",
+    "refused": "refused",
+    "lost": "lost",
+    "damaged": "lost",
+    "damag": "lost"
+  },
+  "_delivery_map_note": "แปลงสถานะจากไฟล์ MyCloud/marketplace เป็นสถานะมาตรฐานของตาราง fulfilment_events (delivered | returned | cancelled | in_transit | lost | refused)"
+}
