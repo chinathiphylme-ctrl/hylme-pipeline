@@ -1,0 +1,41 @@
+{
+  "_comment": "ค่าที่ใช้ 'แสดงผล' อย่างเดียว — ลำดับ สี ชื่อหัวข้อ คัดลอกมาจาก index.html ตรง ๆ (CHANNEL_ORDER, PRODUCT_COLOR, PAYMENT_COLOR, CATEGORICAL, SEQ_STEPS) ไฟล์นี้ไม่มีผลกับการคำนวณยอดใด ๆ แก้ได้อิสระ",
+
+  "channel_order": [
+    "Facebook Hylme",
+    "Facebook Hylme ครบจบเรื่องไขมัน",
+    "Facebook Hylme ครบจบเรื่องนอน",
+    "Facebook Hylme ครบจบเรื่องผิว",
+    "Instagram",
+    "CRM (LINE)",
+    "Telesales (โทร)"
+  ],
+  "_channel_order_note": "ช่องทางที่ไม่อยู่ในลิสต์ (Shopee / Tiktok / Lazada / ไม่ระบุช่องทาง) ต่อท้าย เรียงตามยอดขาย — index.html: channelRank() บรรทัด 4390",
+
+  "product_color": {
+    "Daily Oils Blend": "var(--series-3)",
+    "Magnesium Glycinate": "var(--series-1)",
+    "Gluta Collagen": "var(--series-7)",
+    "Organic Extra Virgin Olive Oil": "var(--series-2)",
+    "GABA": "var(--series-5)",
+    "Healme V-9 Mixed Oils": "var(--series-4)",
+    "Healme S-9 Balance": "var(--series-6)",
+    "S-9 + V-9 (เซ็ตรวม)": "var(--series-8)"
+  },
+
+  "payment_order": ["COD (เก็บเงินปลายทาง)", "โอนเงิน", "Marketplace", "ไม่ระบุ"],
+  "payment_color": {
+    "COD (เก็บเงินปลายทาง)": "var(--series-1)",
+    "โอนเงิน": "var(--series-2)",
+    "Marketplace": "var(--series-3)",
+    "ไม่ระบุ": "var(--baseline)"
+  },
+
+  "categorical": [
+    "var(--series-1)", "var(--series-2)", "var(--series-3)", "var(--series-4)",
+    "var(--series-5)", "var(--series-6)", "var(--series-7)", "var(--series-8)"
+  ],
+  "other_color": "var(--baseline)",
+  "extra_hues": [188, 24, 320, 96, 258, 46, 210, 350, 130, 280],
+  "seq_steps": ["--seq-700", "--seq-600", "--seq-550", "--seq-450", "--seq-350", "--seq-250"]
+}

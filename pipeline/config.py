@@ -47,6 +47,12 @@ class Config:
         self.revenue = _strip_comments(_load("revenue_rules.json"))
         self.validation = _strip_comments(_load("validation.json"))
         self.live_sources = set(self.validation.get("live_sources") or [])
+        # ค่าแสดงผลของแดชบอร์ด (ลำดับช่องทาง / สีสินค้า / สีวิธีชำระเงิน)
+        # ไม่มีผลกับการคำนวณยอดใด ๆ และยอมให้ไฟล์ขาดได้ เผื่อโปรเจกต์รุ่นเก่า
+        try:
+            self.dashboard = _strip_comments(_load("dashboard.json"))
+        except FileNotFoundError:
+            self.dashboard = {}
 
         # ---- ค่าที่ใช้บ่อย ----
         self.vat_rate: float = self.rules["vat_rate"]

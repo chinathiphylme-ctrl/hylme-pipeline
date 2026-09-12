@@ -521,7 +521,9 @@ def main(argv=None) -> int:
 
         rep.section("8. ข้อมูลแดชบอร์ด")
         dash = dashboard.build(con, cfg, OUTPUT_DIR / "dashboard")
-        rep.ok("เขียนไฟล์ JSON", f"{len(dash['files'])} ไฟล์ · {dash['days']} วัน · {dash['months']} เดือน")
+        kb = sum(dash["files"].values()) / 1024
+        rep.ok("เขียนไฟล์ JSON", f"{len(dash['files'])} ไฟล์ · {kb:,.0f} KB · "
+                                 f"{dash['days']} วัน · {dash['months']} เดือน")
 
         conv = conversion.build(con, cfg, OUTPUT_DIR / "dashboard")
         if conv["files_loaded"]:
@@ -535,6 +537,7 @@ def main(argv=None) -> int:
         else:
             rep.info("Conversion Rate", "ยังไม่มีไฟล์ pages_statistics_page_*.xlsx ในฐานข้อมูล")
         rep.bullet("ไม่มีข้อมูลส่วนบุคคลของลูกค้าในไฟล์ชุดนี้ — เอาขึ้นเว็บได้")
+        rep.bullet("เปิดดูด้วย  python serve_dashboard.py   ·  ตรวจก่อนเผยแพร่ด้วย  python pii_scan.py")
 
         rep.section("9. ข้อมูลเทเลเซล + โมเดล")
         tel = telesales.build(con, cfg, OUTPUT_DIR)
