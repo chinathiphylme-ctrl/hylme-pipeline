@@ -5,6 +5,7 @@
 # (เช่น รายชื่อเบอร์ผู้เข้าร่วมแคมเปญ) จะหลุดขึ้น Git ถ้ากันเฉพาะโฟลเดอร์ย่อย
 data/
 !data/.gitkeep
+.public-dashboard-staging/
 *.db
 *.db-journal
 *.db-wal
