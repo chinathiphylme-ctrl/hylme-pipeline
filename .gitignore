@@ -5,6 +5,14 @@
 # (เช่น รายชื่อเบอร์ผู้เข้าร่วมแคมเปญ) จะหลุดขึ้น Git ถ้ากันเฉพาะโฟลเดอร์ย่อย
 data/
 !data/.gitkeep
+
+# Public dashboard artifacts — intentionally publishable
+!public/
+!public/data/
+!public/data/output/
+!public/data/output/dashboard/
+!public/data/output/dashboard/*.json
+
 .public-dashboard-staging/
 *.db
 *.db-journal
