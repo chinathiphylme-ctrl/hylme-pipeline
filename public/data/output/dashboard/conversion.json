@@ -1,0 +1,1291 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-12 10:04:05",
+ "formula": {
+  "primary": "closes / new_cust  (ปิดการขายจากไฟล์ออเดอร์ ÷ ลูกค้าใหม่จากไฟล์สถิติหน้า)",
+  "file_based": "orders_file / new_cust  (ยอดออเดอร์ในไฟล์สถิติหน้า ÷ ลูกค้าใหม่)",
+  "note": "ไม่ใช้คอลัมน์ % ของ Pancake — เป็น % รายวัน บวกกันไม่ได้ (ในชีต by_page ทะลุ 100%)",
+  "closes_scope": "closes นับเฉพาะวันที่ไฟล์สถิติหน้ามีข้อมูลจริง (stat_dates) ไม่ใช่ทั้งช่วง"
+ },
+ "page_defs": [
+  {
+   "key": "fb_hylme",
+   "page": "FB Hylme",
+   "platform": "Facebook",
+   "color": "#1877F2"
+  },
+  {
+   "key": "fb_kaimun",
+   "page": "FB ครบจบเรื่องไขมัน",
+   "platform": "Facebook",
+   "color": "#1877F2"
+  },
+  {
+   "key": "fb_non",
+   "page": "FB ครบจบเรื่องนอน",
+   "platform": "Facebook",
+   "color": "#1877F2"
+  },
+  {
+   "key": "fb_piw",
+   "page": "FB ครบจบเรื่องผิว",
+   "platform": "Facebook",
+   "color": "#1877F2"
+  },
+  {
+   "key": "line_priv",
+   "page": "LINE Privilege",
+   "platform": "Line",
+   "color": "#06C755"
+  },
+  {
+   "key": "line_off",
+   "page": "LINE Official",
+   "platform": "Line",
+   "color": "#06C755"
+  },
+  {
+   "key": "ig",
+   "page": "Instagram",
+   "platform": "Instagram",
+   "color": "#E1306C"
+  }
+ ],
+ "team_page_keys": {
+  "admin": [
+   "fb_hylme",
+   "fb_kaimun",
+   "fb_non",
+   "fb_piw",
+   "ig"
+  ],
+  "crm": [
+   "line_priv",
+   "line_off"
+  ],
+  "telesales": []
+ },
+ "n_files": 3,
+ "files": [
+  {
+   "file": "pages_statistics_page_0809.xlsx",
+   "pages": [
+    {
+     "id": "923678677500634",
+     "name": "Hylme ครบจบเรื่องนอน",
+     "key": "fb_non"
+    },
+    {
+     "id": "100379779472465",
+     "name": "Hylme",
+     "key": "fb_hylme"
+    },
+    {
+     "id": "516356078238016",
+     "name": "Hylme ครบจบเรื่องไขมัน",
+     "key": "fb_kaimun"
+    },
+    {
+     "id": "1008313615693207",
+     "name": "Hylme ครบจบเรื่องผิว",
+     "key": "fb_piw"
+    }
+   ],
+   "set_id": "fb_hylme+fb_kaimun+fb_non+fb_piw",
+   "from": "2026-09-08",
+   "to": "2026-09-08",
+   "n_days": 1,
+   "range_text": "08/09/2026 00:00:00 - 08/09/2026 23:59:59",
+   "by_time": {
+    "2026-09-08": {
+     "new_cust": 275.0,
+     "orders": 90.0
+    }
+   },
+   "by_page": {
+    "fb_hylme": {
+     "new_cust": 98.0,
+     "orders": 29.0
+    },
+    "fb_kaimun": {
+     "new_cust": 172.0,
+     "orders": 58.0
+    },
+    "fb_non": {
+     "new_cust": 5.0,
+     "orders": 3.0
+    },
+    "fb_piw": {
+     "new_cust": 0.0,
+     "orders": 0.0
+    }
+   }
+  },
+  {
+   "file": "pages_statistics_page_1009.xlsx",
+   "pages": [
+    {
+     "id": "923678677500634",
+     "name": "Hylme ครบจบเรื่องนอน",
+     "key": "fb_non"
+    },
+    {
+     "id": "100379779472465",
+     "name": "Hylme",
+     "key": "fb_hylme"
+    },
+    {
+     "id": "516356078238016",
+     "name": "Hylme ครบจบเรื่องไขมัน",
+     "key": "fb_kaimun"
+    },
+    {
+     "id": "1008313615693207",
+     "name": "Hylme ครบจบเรื่องผิว",
+     "key": "fb_piw"
+    }
+   ],
+   "set_id": "fb_hylme+fb_kaimun+fb_non+fb_piw",
+   "from": "2026-09-10",
+   "to": "2026-09-10",
+   "n_days": 1,
+   "range_text": "10/09/2026 00:00:00 - 10/09/2026 23:59:59",
+   "by_time": {
+    "2026-09-10": {
+     "new_cust": 222.0,
+     "orders": 79.0
+    }
+   },
+   "by_page": {
+    "fb_hylme": {
+     "new_cust": 82.0,
+     "orders": 27.0
+    },
+    "fb_kaimun": {
+     "new_cust": 134.0,
+     "orders": 48.0
+    },
+    "fb_non": {
+     "new_cust": 6.0,
+     "orders": 4.0
+    },
+    "fb_piw": {
+     "new_cust": 0.0,
+     "orders": 0.0
+    }
+   }
+  },
+  {
+   "file": "pages_statistics_page_1109.xlsx",
+   "pages": [
+    {
+     "id": "923678677500634",
+     "name": "Hylme ครบจบเรื่องนอน",
+     "key": "fb_non"
+    },
+    {
+     "id": "100379779472465",
+     "name": "Hylme",
+     "key": "fb_hylme"
+    },
+    {
+     "id": "516356078238016",
+     "name": "Hylme ครบจบเรื่องไขมัน",
+     "key": "fb_kaimun"
+    },
+    {
+     "id": "1008313615693207",
+     "name": "Hylme ครบจบเรื่องผิว",
+     "key": "fb_piw"
+    }
+   ],
+   "set_id": "fb_hylme+fb_kaimun+fb_non+fb_piw",
+   "from": "2026-09-11",
+   "to": "2026-09-11",
+   "n_days": 1,
+   "range_text": "11/09/2026 00:00:00 - 11/09/2026 23:59:59",
+   "by_time": {
+    "2026-09-11": {
+     "new_cust": 219.0,
+     "orders": 77.0
+    }
+   },
+   "by_page": {
+    "fb_hylme": {
+     "new_cust": 66.0,
+     "orders": 28.0
+    },
+    "fb_kaimun": {
+     "new_cust": 145.0,
+     "orders": 48.0
+    },
+    "fb_non": {
+     "new_cust": 8.0,
+     "orders": 1.0
+    },
+    "fb_piw": {
+     "new_cust": 0.0,
+     "orders": 0.0
+    }
+   }
+  }
+ ],
+ "closes_by_date_page": {
+  "2025-11-02": {
+   "line_off": 1
+  },
+  "2025-11-03": {
+   "line_off": 2
+  },
+  "2025-11-04": {
+   "line_off": 3
+  },
+  "2025-11-05": {
+   "line_off": 1
+  },
+  "2025-11-06": {
+   "line_off": 1
+  },
+  "2025-11-07": {
+   "line_off": 3
+  },
+  "2025-11-08": {
+   "line_off": 2
+  },
+  "2025-11-09": {
+   "line_off": 1
+  },
+  "2025-11-10": {
+   "line_off": 1
+  },
+  "2025-11-11": {
+   "line_off": 6
+  },
+  "2025-11-12": {
+   "line_off": 3
+  },
+  "2025-11-13": {
+   "line_off": 2
+  },
+  "2025-11-14": {
+   "line_off": 2
+  },
+  "2025-11-15": {
+   "line_off": 1
+  },
+  "2025-11-16": {
+   "line_off": 4
+  },
+  "2025-11-17": {
+   "line_off": 4
+  },
+  "2025-11-19": {
+   "line_off": 3
+  },
+  "2025-11-21": {
+   "line_off": 1
+  },
+  "2025-11-22": {
+   "line_off": 1
+  },
+  "2025-11-23": {
+   "line_off": 1
+  },
+  "2025-11-24": {
+   "line_off": 2
+  },
+  "2025-11-25": {
+   "line_off": 4
+  },
+  "2025-11-26": {
+   "line_off": 9
+  },
+  "2025-11-27": {
+   "line_off": 5
+  },
+  "2025-11-28": {
+   "line_off": 1
+  },
+  "2025-11-29": {
+   "line_off": 2
+  },
+  "2025-11-30": {
+   "line_off": 15
+  },
+  "2025-12-01": {
+   "line_off": 7
+  },
+  "2025-12-02": {
+   "line_off": 4
+  },
+  "2025-12-03": {
+   "line_off": 2
+  },
+  "2025-12-04": {
+   "line_off": 2
+  },
+  "2025-12-05": {
+   "line_off": 2
+  },
+  "2025-12-06": {
+   "line_off": 2
+  },
+  "2025-12-07": {
+   "line_off": 1
+  },
+  "2025-12-08": {
+   "line_off": 1
+  },
+  "2025-12-09": {
+   "line_off": 2
+  },
+  "2025-12-12": {
+   "line_off": 1
+  },
+  "2025-12-14": {
+   "line_off": 3
+  },
+  "2025-12-15": {
+   "line_off": 1
+  },
+  "2025-12-17": {
+   "line_off": 1
+  },
+  "2025-12-18": {
+   "line_off": 1
+  },
+  "2025-12-20": {
+   "line_off": 1
+  },
+  "2025-12-21": {
+   "line_off": 2
+  },
+  "2025-12-22": {
+   "line_off": 2
+  },
+  "2025-12-24": {
+   "line_off": 14
+  },
+  "2025-12-25": {
+   "line_off": 8
+  },
+  "2025-12-26": {
+   "line_off": 9
+  },
+  "2025-12-27": {
+   "line_off": 1
+  },
+  "2025-12-28": {
+   "line_off": 8
+  },
+  "2025-12-29": {
+   "line_off": 7
+  },
+  "2025-12-30": {
+   "line_off": 1
+  },
+  "2025-12-31": {
+   "line_off": 3
+  },
+  "2026-01-01": {
+   "line_off": 2
+  },
+  "2026-01-03": {
+   "line_off": 2
+  },
+  "2026-01-05": {
+   "line_off": 4
+  },
+  "2026-01-06": {
+   "line_off": 2
+  },
+  "2026-01-07": {
+   "line_off": 2
+  },
+  "2026-01-08": {
+   "line_off": 1
+  },
+  "2026-01-11": {
+   "line_off": 2
+  },
+  "2026-01-13": {
+   "line_off": 1
+  },
+  "2026-01-15": {
+   "line_off": 2
+  },
+  "2026-01-16": {
+   "line_off": 4
+  },
+  "2026-01-17": {
+   "line_off": 2
+  },
+  "2026-01-19": {
+   "line_off": 1
+  },
+  "2026-01-20": {
+   "line_off": 2
+  },
+  "2026-01-21": {
+   "line_off": 1
+  },
+  "2026-01-22": {
+   "line_off": 4
+  },
+  "2026-01-23": {
+   "line_off": 1
+  },
+  "2026-01-26": {
+   "line_off": 1
+  },
+  "2026-01-28": {
+   "line_off": 1
+  },
+  "2026-01-29": {
+   "line_off": 1
+  },
+  "2026-01-31": {
+   "line_off": 10
+  },
+  "2026-02-01": {
+   "line_off": 1
+  },
+  "2026-02-02": {
+   "line_off": 1
+  },
+  "2026-02-05": {
+   "line_off": 2
+  },
+  "2026-02-06": {
+   "line_off": 1
+  },
+  "2026-02-07": {
+   "line_off": 3
+  },
+  "2026-02-08": {
+   "line_off": 2
+  },
+  "2026-02-10": {
+   "line_off": 4
+  },
+  "2026-02-11": {
+   "line_off": 4
+  },
+  "2026-02-12": {
+   "line_off": 4
+  },
+  "2026-02-13": {
+   "line_off": 2
+  },
+  "2026-02-14": {
+   "line_off": 1
+  },
+  "2026-02-15": {
+   "line_off": 1
+  },
+  "2026-02-16": {
+   "line_off": 1
+  },
+  "2026-02-20": {
+   "line_off": 1
+  },
+  "2026-02-22": {
+   "line_off": 1
+  },
+  "2026-02-23": {
+   "line_off": 1
+  },
+  "2026-02-24": {
+   "line_off": 1
+  },
+  "2026-02-26": {
+   "line_off": 2
+  },
+  "2026-02-27": {
+   "line_off": 1
+  },
+  "2026-03-02": {
+   "line_off": 1
+  },
+  "2026-03-03": {
+   "line_off": 1
+  },
+  "2026-03-07": {
+   "line_off": 4
+  },
+  "2026-03-08": {
+   "line_off": 4
+  },
+  "2026-03-09": {
+   "line_off": 5
+  },
+  "2026-03-10": {
+   "line_off": 2
+  },
+  "2026-03-11": {
+   "line_off": 3
+  },
+  "2026-03-12": {
+   "line_off": 1
+  },
+  "2026-03-13": {
+   "line_off": 2
+  },
+  "2026-03-15": {
+   "line_off": 5
+  },
+  "2026-03-18": {
+   "line_off": 2
+  },
+  "2026-03-19": {
+   "line_off": 1
+  },
+  "2026-03-20": {
+   "line_off": 3
+  },
+  "2026-03-21": {
+   "line_off": 1
+  },
+  "2026-03-23": {
+   "line_off": 1
+  },
+  "2026-03-25": {
+   "line_off": 5
+  },
+  "2026-03-26": {
+   "line_off": 3
+  },
+  "2026-03-27": {
+   "line_off": 6
+  },
+  "2026-03-29": {
+   "line_off": 1
+  },
+  "2026-03-30": {
+   "line_off": 2
+  },
+  "2026-03-31": {
+   "line_off": 1
+  },
+  "2026-04-01": {
+   "line_off": 1
+  },
+  "2026-04-02": {
+   "line_off": 1
+  },
+  "2026-04-03": {
+   "line_off": 2
+  },
+  "2026-04-05": {
+   "line_off": 1
+  },
+  "2026-04-06": {
+   "line_off": 1
+  },
+  "2026-04-07": {
+   "line_off": 2
+  },
+  "2026-04-09": {
+   "line_off": 1
+  },
+  "2026-04-11": {
+   "line_off": 2
+  },
+  "2026-04-13": {
+   "line_off": 3
+  },
+  "2026-04-14": {
+   "line_off": 2
+  },
+  "2026-04-15": {
+   "line_off": 2
+  },
+  "2026-04-16": {
+   "line_off": 2
+  },
+  "2026-04-17": {
+   "line_off": 5
+  },
+  "2026-04-19": {
+   "line_off": 2
+  },
+  "2026-04-23": {
+   "line_off": 1
+  },
+  "2026-04-24": {
+   "line_off": 2
+  },
+  "2026-04-25": {
+   "line_off": 1
+  },
+  "2026-04-26": {
+   "line_off": 3
+  },
+  "2026-04-27": {
+   "line_off": 3
+  },
+  "2026-04-28": {
+   "line_off": 1
+  },
+  "2026-04-29": {
+   "line_off": 2
+  },
+  "2026-05-01": {
+   "line_off": 1
+  },
+  "2026-05-04": {
+   "line_off": 1
+  },
+  "2026-05-05": {
+   "line_off": 4
+  },
+  "2026-05-07": {
+   "line_off": 4
+  },
+  "2026-05-08": {
+   "line_off": 2
+  },
+  "2026-05-09": {
+   "line_off": 3
+  },
+  "2026-05-12": {
+   "line_off": 1
+  },
+  "2026-05-13": {
+   "line_off": 1
+  },
+  "2026-05-14": {
+   "line_off": 2
+  },
+  "2026-05-15": {
+   "line_off": 5
+  },
+  "2026-05-16": {
+   "line_off": 2
+  },
+  "2026-05-18": {
+   "line_off": 1
+  },
+  "2026-05-19": {
+   "line_off": 4
+  },
+  "2026-05-20": {
+   "line_off": 1
+  },
+  "2026-05-23": {
+   "line_off": 2
+  },
+  "2026-05-25": {
+   "line_off": 1
+  },
+  "2026-05-27": {
+   "line_off": 8
+  },
+  "2026-05-28": {
+   "line_off": 3
+  },
+  "2026-05-29": {
+   "line_off": 4
+  },
+  "2026-05-30": {
+   "line_off": 4
+  },
+  "2026-06-01": {
+   "line_off": 2,
+   "fb_hylme": 25,
+   "fb_kaimun": 2
+  },
+  "2026-06-02": {
+   "fb_hylme": 16,
+   "fb_kaimun": 6
+  },
+  "2026-06-03": {
+   "line_off": 1,
+   "fb_hylme": 20,
+   "fb_kaimun": 7
+  },
+  "2026-06-04": {
+   "fb_hylme": 16,
+   "fb_kaimun": 8
+  },
+  "2026-06-05": {
+   "line_off": 4,
+   "fb_hylme": 10,
+   "fb_kaimun": 8
+  },
+  "2026-06-06": {
+   "fb_hylme": 17,
+   "fb_kaimun": 7
+  },
+  "2026-06-07": {
+   "fb_hylme": 20,
+   "fb_kaimun": 14
+  },
+  "2026-06-08": {
+   "line_off": 4,
+   "fb_hylme": 26,
+   "fb_kaimun": 9
+  },
+  "2026-06-09": {
+   "line_off": 14,
+   "fb_hylme": 24,
+   "fb_kaimun": 9
+  },
+  "2026-06-10": {
+   "line_off": 6,
+   "fb_hylme": 12,
+   "fb_kaimun": 12
+  },
+  "2026-06-11": {
+   "fb_kaimun": 14,
+   "fb_hylme": 23,
+   "line_off": 2
+  },
+  "2026-06-12": {
+   "line_off": 3,
+   "fb_hylme": 26,
+   "fb_kaimun": 5
+  },
+  "2026-06-13": {
+   "fb_hylme": 23,
+   "fb_kaimun": 14
+  },
+  "2026-06-14": {
+   "fb_hylme": 26,
+   "fb_kaimun": 22
+  },
+  "2026-06-15": {
+   "line_off": 4,
+   "fb_hylme": 41,
+   "fb_kaimun": 19
+  },
+  "2026-06-16": {
+   "fb_hylme": 22,
+   "line_off": 1,
+   "fb_kaimun": 14
+  },
+  "2026-06-17": {
+   "fb_hylme": 22,
+   "fb_kaimun": 12,
+   "line_off": 1
+  },
+  "2026-06-18": {
+   "fb_hylme": 35,
+   "fb_kaimun": 17,
+   "line_off": 1
+  },
+  "2026-06-19": {
+   "line_off": 1,
+   "fb_kaimun": 15,
+   "fb_hylme": 29
+  },
+  "2026-06-20": {
+   "fb_hylme": 37,
+   "fb_kaimun": 14
+  },
+  "2026-06-21": {
+   "fb_kaimun": 32,
+   "fb_hylme": 35
+  },
+  "2026-06-22": {
+   "line_off": 1,
+   "fb_hylme": 46,
+   "fb_kaimun": 27
+  },
+  "2026-06-23": {
+   "line_off": 1,
+   "fb_hylme": 39,
+   "fb_kaimun": 28
+  },
+  "2026-06-24": {
+   "fb_hylme": 43,
+   "fb_kaimun": 42
+  },
+  "2026-06-25": {
+   "line_off": 1,
+   "fb_hylme": 41,
+   "fb_kaimun": 21
+  },
+  "2026-06-26": {
+   "line_off": 1,
+   "fb_kaimun": 28,
+   "fb_hylme": 57
+  },
+  "2026-06-27": {
+   "fb_kaimun": 47,
+   "fb_hylme": 59,
+   "line_off": 6
+  },
+  "2026-06-29": {
+   "line_off": 1,
+   "fb_hylme": 69,
+   "fb_kaimun": 50
+  },
+  "2026-06-30": {
+   "fb_hylme": 75,
+   "fb_kaimun": 52,
+   "line_off": 3
+  },
+  "2026-07-01": {
+   "line_off": 1,
+   "fb_kaimun": 56,
+   "fb_hylme": 50
+  },
+  "2026-07-02": {
+   "fb_hylme": 36,
+   "line_off": 2,
+   "fb_kaimun": 30
+  },
+  "2026-07-03": {
+   "fb_hylme": 54,
+   "fb_kaimun": 39,
+   "line_off": 1
+  },
+  "2026-07-04": {
+   "fb_kaimun": 34,
+   "fb_hylme": 39,
+   "line_off": 2
+  },
+  "2026-07-05": {
+   "fb_hylme": 56,
+   "fb_kaimun": 62
+  },
+  "2026-07-06": {
+   "line_off": 4,
+   "fb_hylme": 57,
+   "fb_kaimun": 47
+  },
+  "2026-07-07": {
+   "line_off": 5,
+   "fb_hylme": 60,
+   "fb_kaimun": 53
+  },
+  "2026-07-08": {
+   "fb_kaimun": 51,
+   "fb_hylme": 52,
+   "line_off": 1
+  },
+  "2026-07-09": {
+   "fb_hylme": 68,
+   "fb_kaimun": 39,
+   "line_off": 4
+  },
+  "2026-07-10": {
+   "fb_hylme": 50,
+   "fb_kaimun": 38,
+   "line_off": 1
+  },
+  "2026-07-11": {
+   "line_off": 2,
+   "fb_hylme": 35,
+   "fb_kaimun": 35
+  },
+  "2026-07-12": {
+   "fb_kaimun": 37,
+   "fb_hylme": 45
+  },
+  "2026-07-13": {
+   "line_off": 3,
+   "fb_hylme": 41,
+   "fb_kaimun": 22
+  },
+  "2026-07-14": {
+   "fb_kaimun": 83,
+   "line_off": 2,
+   "fb_hylme": 41,
+   "fb_non": 13,
+   "fb_piw": 1
+  },
+  "2026-07-15": {
+   "line_off": 1,
+   "fb_kaimun": 96,
+   "fb_hylme": 42,
+   "fb_non": 4
+  },
+  "2026-07-16": {
+   "line_off": 4,
+   "fb_kaimun": 47,
+   "fb_hylme": 47,
+   "fb_non": 10
+  },
+  "2026-07-17": {
+   "line_off": 4,
+   "fb_kaimun": 52,
+   "fb_non": 5,
+   "fb_hylme": 34,
+   "fb_piw": 1
+  },
+  "2026-07-18": {
+   "fb_kaimun": 51,
+   "ig": 1,
+   "fb_hylme": 29,
+   "fb_piw": 1,
+   "fb_non": 9
+  },
+  "2026-07-19": {
+   "fb_hylme": 77,
+   "fb_kaimun": 135,
+   "fb_non": 12,
+   "ig": 1,
+   "fb_piw": 1
+  },
+  "2026-07-20": {
+   "line_off": 3,
+   "fb_kaimun": 104,
+   "fb_non": 11,
+   "fb_hylme": 58
+  },
+  "2026-07-21": {
+   "line_off": 3,
+   "fb_kaimun": 106,
+   "fb_non": 5,
+   "fb_hylme": 46,
+   "fb_piw": 1
+  },
+  "2026-07-22": {
+   "line_off": 4,
+   "fb_kaimun": 59,
+   "fb_hylme": 34,
+   "fb_non": 7
+  },
+  "2026-07-23": {
+   "fb_kaimun": 38,
+   "fb_hylme": 19
+  },
+  "2026-07-24": {
+   "fb_kaimun": 11,
+   "line_off": 1,
+   "fb_non": 1,
+   "fb_hylme": 5
+  },
+  "2026-07-25": {
+   "fb_kaimun": 44,
+   "line_off": 4,
+   "fb_hylme": 35,
+   "fb_piw": 1,
+   "fb_non": 6
+  },
+  "2026-07-26": {
+   "fb_hylme": 59,
+   "fb_kaimun": 50,
+   "fb_non": 2,
+   "fb_piw": 1
+  },
+  "2026-07-27": {
+   "fb_hylme": 29,
+   "fb_kaimun": 52,
+   "fb_non": 3,
+   "line_off": 2
+  },
+  "2026-07-28": {
+   "fb_hylme": 25,
+   "fb_kaimun": 40,
+   "fb_non": 1
+  },
+  "2026-07-29": {
+   "fb_hylme": 32,
+   "fb_kaimun": 31,
+   "fb_non": 10,
+   "line_off": 3
+  },
+  "2026-07-30": {
+   "fb_hylme": 22,
+   "line_off": 1,
+   "fb_kaimun": 33,
+   "fb_non": 5
+  },
+  "2026-07-31": {
+   "fb_hylme": 27,
+   "fb_kaimun": 45,
+   "fb_non": 5,
+   "line_off": 2
+  },
+  "2026-08-01": {
+   "fb_non": 6,
+   "fb_hylme": 34,
+   "fb_kaimun": 37,
+   "fb_piw": 1
+  },
+  "2026-08-02": {
+   "fb_hylme": 30,
+   "fb_kaimun": 61,
+   "fb_non": 9,
+   "line_off": 1
+  },
+  "2026-08-03": {
+   "fb_kaimun": 56,
+   "fb_hylme": 35,
+   "fb_non": 8,
+   "fb_piw": 1
+  },
+  "2026-08-04": {
+   "fb_hylme": 30,
+   "fb_kaimun": 51,
+   "fb_non": 7
+  },
+  "2026-08-05": {
+   "fb_kaimun": 53,
+   "fb_hylme": 33,
+   "line_off": 3,
+   "fb_non": 1
+  },
+  "2026-08-06": {
+   "fb_kaimun": 51,
+   "fb_hylme": 24,
+   "fb_non": 1
+  },
+  "2026-08-07": {
+   "fb_kaimun": 43,
+   "line_off": 3,
+   "fb_hylme": 18,
+   "fb_non": 5,
+   "fb_piw": 2
+  },
+  "2026-08-08": {
+   "fb_kaimun": 34,
+   "fb_hylme": 26,
+   "fb_non": 5,
+   "line_off": 1,
+   "fb_piw": 1
+  },
+  "2026-08-09": {
+   "fb_hylme": 39,
+   "fb_kaimun": 50,
+   "fb_non": 10,
+   "line_off": 1
+  },
+  "2026-08-10": {
+   "fb_kaimun": 18,
+   "fb_hylme": 16,
+   "line_off": 3,
+   "fb_non": 6
+  },
+  "2026-08-11": {
+   "fb_hylme": 22,
+   "fb_kaimun": 23,
+   "fb_non": 3,
+   "line_off": 3,
+   "fb_piw": 1
+  },
+  "2026-08-12": {
+   "fb_kaimun": 49,
+   "fb_hylme": 37,
+   "fb_non": 6,
+   "line_off": 1
+  },
+  "2026-08-13": {
+   "fb_hylme": 48,
+   "fb_kaimun": 54,
+   "line_off": 6,
+   "fb_piw": 1,
+   "fb_non": 4
+  },
+  "2026-08-14": {
+   "fb_hylme": 34,
+   "fb_kaimun": 49,
+   "fb_non": 7,
+   "line_off": 1
+  },
+  "2026-08-15": {
+   "fb_kaimun": 47,
+   "fb_hylme": 28,
+   "fb_non": 8,
+   "line_off": 1
+  },
+  "2026-08-16": {
+   "fb_kaimun": 43,
+   "fb_hylme": 27,
+   "fb_non": 7
+  },
+  "2026-08-17": {
+   "fb_hylme": 37,
+   "fb_kaimun": 51,
+   "fb_non": 3
+  },
+  "2026-08-18": {
+   "fb_kaimun": 35,
+   "line_off": 2,
+   "fb_hylme": 32,
+   "fb_non": 4
+  },
+  "2026-08-19": {
+   "fb_kaimun": 53,
+   "fb_hylme": 42,
+   "line_off": 13,
+   "fb_non": 3,
+   "fb_piw": 1
+  },
+  "2026-08-20": {
+   "fb_hylme": 46,
+   "line_off": 14,
+   "fb_kaimun": 54,
+   "fb_non": 1
+  },
+  "2026-08-21": {
+   "line_off": 15,
+   "fb_hylme": 35,
+   "fb_kaimun": 49,
+   "fb_non": 1
+  },
+  "2026-08-22": {
+   "fb_hylme": 41,
+   "line_off": 11,
+   "fb_kaimun": 46,
+   "fb_non": 2
+  },
+  "2026-08-23": {
+   "fb_kaimun": 39,
+   "fb_hylme": 41,
+   "fb_non": 6
+  },
+  "2026-08-24": {
+   "fb_kaimun": 52,
+   "fb_hylme": 35,
+   "fb_non": 8,
+   "line_off": 6
+  },
+  "2026-08-25": {
+   "fb_kaimun": 51,
+   "line_off": 11,
+   "fb_hylme": 37,
+   "fb_non": 2
+  },
+  "2026-08-26": {
+   "line_off": 7,
+   "fb_hylme": 30,
+   "fb_kaimun": 59,
+   "fb_non": 3,
+   "fb_piw": 1
+  },
+  "2026-08-27": {
+   "fb_kaimun": 59,
+   "fb_hylme": 37,
+   "line_off": 2,
+   "fb_non": 4
+  },
+  "2026-08-28": {
+   "fb_kaimun": 60,
+   "fb_hylme": 39,
+   "fb_non": 2,
+   "line_off": 2
+  },
+  "2026-09-08": {
+   "fb_kaimun": 57,
+   "fb_non": 3,
+   "line_priv": 2,
+   "fb_hylme": 29
+  },
+  "2026-09-10": {
+   "line_priv": 8,
+   "fb_non": 4,
+   "fb_hylme": 27,
+   "fb_kaimun": 48,
+   "line_off": 2
+  },
+  "2026-09-11": {
+   "fb_kaimun": 48,
+   "fb_hylme": 28,
+   "fb_non": 1,
+   "line_priv": 1
+  }
+ },
+ "monthly": [
+  {
+   "label": "2026-09",
+   "stat_dates": [
+    "2026-09-08",
+    "2026-09-10",
+    "2026-09-11"
+   ],
+   "coverage": "3/3",
+   "skipped_files": [],
+   "pages": [
+    {
+     "key": "fb_hylme",
+     "page": "FB Hylme",
+     "platform": "Facebook",
+     "color": "#1877F2",
+     "new_cust": 246.0,
+     "chat_new": 237.0,
+     "phone_new": 67.0,
+     "orders_file": 84.0,
+     "closes": 84,
+     "conv": 0.341463
+    },
+    {
+     "key": "fb_kaimun",
+     "page": "FB ครบจบเรื่องไขมัน",
+     "platform": "Facebook",
+     "color": "#1877F2",
+     "new_cust": 451.0,
+     "chat_new": 446.0,
+     "phone_new": 133.0,
+     "orders_file": 154.0,
+     "closes": 153,
+     "conv": 0.339246
+    },
+    {
+     "key": "fb_non",
+     "page": "FB ครบจบเรื่องนอน",
+     "platform": "Facebook",
+     "color": "#1877F2",
+     "new_cust": 19.0,
+     "chat_new": 16.0,
+     "phone_new": 3.0,
+     "orders_file": 8.0,
+     "closes": 8,
+     "conv": 0.421053
+    },
+    {
+     "key": "fb_piw",
+     "page": "FB ครบจบเรื่องผิว",
+     "platform": "Facebook",
+     "color": "#1877F2",
+     "new_cust": 0,
+     "chat_new": 0,
+     "phone_new": 0,
+     "orders_file": 0,
+     "closes": 0,
+     "conv": null
+    }
+   ],
+   "combo": null,
+   "total": {
+    "new_cust": 716.0,
+    "orders_file": 246.0,
+    "closes": 245,
+    "conv_closes": 0.342179,
+    "conv_file": 0.343575
+   },
+   "daily": [
+    {
+     "date": "2026-09-08",
+     "new_cust": 275.0,
+     "chat_new": 266.0,
+     "phone_new": 68.0,
+     "orders_file": 90.0,
+     "conv_file": 0.327273
+    },
+    {
+     "date": "2026-09-10",
+     "new_cust": 222.0,
+     "chat_new": 216.0,
+     "phone_new": 72.0,
+     "orders_file": 79.0,
+     "conv_file": 0.355856
+    },
+    {
+     "date": "2026-09-11",
+     "new_cust": 219.0,
+     "chat_new": 217.0,
+     "phone_new": 63.0,
+     "orders_file": 77.0,
+     "conv_file": 0.351598
+    }
+   ],
+   "month": "2026-09"
+  }
+ ],
+ "legacy_page_key_from_channel": 3767,
+ "legacy_note": "ออเดอร์ที่ไม่มี page_key (โหลดเข้าฐานก่อนมี pipeline) อนุมานเพจจากคอลัมน์ channel — แยก LINE Privilege / Official ไม่ได้ จึงตกไปที่ line_off ทั้งหมด"
+}

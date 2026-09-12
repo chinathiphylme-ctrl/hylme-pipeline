@@ -1,0 +1,107 @@
+{
+ "schema_version": 2,
+ "generated_at": "2026-09-12 13:20:37",
+ "date_from": "2025-11-01",
+ "date_to": "2026-09-11",
+ "orders": 19894,
+ "gross": 16692515.47,
+ "net": 16692515.47,
+ "customers": 10242,
+ "teams": [
+  {
+   "key": "admin",
+   "name": "Admin",
+   "sub": "Facebook + Instagram",
+   "color": "#1877F2"
+  },
+  {
+   "key": "crm",
+   "name": "CRM",
+   "sub": "LINE ทุกช่องทาง",
+   "color": "#06C755"
+  },
+  {
+   "key": "telesales",
+   "name": "Telesales",
+   "sub": "โทรขาย",
+   "color": "#E8A33D"
+  }
+ ],
+ "products": [
+  "Daily Oils Blend",
+  "Magnesium Glycinate",
+  "Gluta Collagen",
+  "Organic Extra Virgin Olive Oil",
+  "GABA"
+ ],
+ "display": {
+  "channel_order": [
+   "Facebook Hylme",
+   "Facebook Hylme ครบจบเรื่องไขมัน",
+   "Facebook Hylme ครบจบเรื่องนอน",
+   "Facebook Hylme ครบจบเรื่องผิว",
+   "Instagram",
+   "CRM (LINE)",
+   "Telesales (โทร)"
+  ],
+  "product_color": {
+   "Daily Oils Blend": "var(--series-3)",
+   "Magnesium Glycinate": "var(--series-1)",
+   "Gluta Collagen": "var(--series-7)",
+   "Organic Extra Virgin Olive Oil": "var(--series-2)",
+   "GABA": "var(--series-5)",
+   "Healme V-9 Mixed Oils": "var(--series-4)",
+   "Healme S-9 Balance": "var(--series-6)",
+   "S-9 + V-9 (เซ็ตรวม)": "var(--series-8)"
+  },
+  "payment_order": [
+   "COD (เก็บเงินปลายทาง)",
+   "โอนเงิน",
+   "Marketplace",
+   "ไม่ระบุ"
+  ],
+  "payment_color": {
+   "COD (เก็บเงินปลายทาง)": "var(--series-1)",
+   "โอนเงิน": "var(--series-2)",
+   "Marketplace": "var(--series-3)",
+   "ไม่ระบุ": "var(--baseline)"
+  },
+  "categorical": [
+   "var(--series-1)",
+   "var(--series-2)",
+   "var(--series-3)",
+   "var(--series-4)",
+   "var(--series-5)",
+   "var(--series-6)",
+   "var(--series-7)",
+   "var(--series-8)"
+  ],
+  "other_color": "var(--baseline)",
+  "extra_hues": [
+   188,
+   24,
+   320,
+   96,
+   258,
+   46,
+   210,
+   350,
+   130,
+   280
+  ],
+  "seq_steps": [
+   "--seq-700",
+   "--seq-600",
+   "--seq-550",
+   "--seq-450",
+   "--seq-350",
+   "--seq-250"
+  ],
+  "non_product_labels": [
+   "ส่วนต่างระดับบิล",
+   "ส่วนลดระดับบิล",
+   "ค่าธรรมเนียม"
+  ]
+ },
+ "note": "ไฟล์ชุดนี้เป็นตัวเลขสรุปล้วน ไม่มีข้อมูลส่วนบุคคลของลูกค้า"
+}

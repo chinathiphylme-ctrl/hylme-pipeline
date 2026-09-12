@@ -1,0 +1,2738 @@
+[
+ {
+  "date": "2025-11-01",
+  "orders": 34,
+  "cancelled_orders": 0,
+  "gross": 38503.81,
+  "cancelled": 0.0,
+  "net": 38503.81,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-02",
+  "orders": 5,
+  "cancelled_orders": 0,
+  "gross": 4320.0,
+  "cancelled": 0.0,
+  "net": 4320.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-03",
+  "orders": 35,
+  "cancelled_orders": 0,
+  "gross": 36445.01,
+  "cancelled": 0.0,
+  "net": 36445.01,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-04",
+  "orders": 40,
+  "cancelled_orders": 0,
+  "gross": 36596.0,
+  "cancelled": 0.0,
+  "net": 36596.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-05",
+  "orders": 44,
+  "cancelled_orders": 0,
+  "gross": 49617.0,
+  "cancelled": 0.0,
+  "net": 49617.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-06",
+  "orders": 59,
+  "cancelled_orders": 0,
+  "gross": 59286.0,
+  "cancelled": 0.0,
+  "net": 59286.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-07",
+  "orders": 74,
+  "cancelled_orders": 0,
+  "gross": 68922.41,
+  "cancelled": 0.0,
+  "net": 68922.41,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-08",
+  "orders": 61,
+  "cancelled_orders": 0,
+  "gross": 64842.7,
+  "cancelled": 0.0,
+  "net": 64842.7,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-09",
+  "orders": 70,
+  "cancelled_orders": 0,
+  "gross": 55417.4,
+  "cancelled": 0.0,
+  "net": 55417.4,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-10",
+  "orders": 93,
+  "cancelled_orders": 0,
+  "gross": 76413.58,
+  "cancelled": 0.0,
+  "net": 76413.58,
+  "free_orders": 1
+ },
+ {
+  "date": "2025-11-11",
+  "orders": 109,
+  "cancelled_orders": 0,
+  "gross": 103174.62,
+  "cancelled": 0.0,
+  "net": 103174.62,
+  "free_orders": 1
+ },
+ {
+  "date": "2025-11-12",
+  "orders": 63,
+  "cancelled_orders": 0,
+  "gross": 73613.29,
+  "cancelled": 0.0,
+  "net": 73613.29,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-13",
+  "orders": 54,
+  "cancelled_orders": 0,
+  "gross": 46663.15,
+  "cancelled": 0.0,
+  "net": 46663.15,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-14",
+  "orders": 67,
+  "cancelled_orders": 0,
+  "gross": 64172.01,
+  "cancelled": 0.0,
+  "net": 64172.01,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-15",
+  "orders": 46,
+  "cancelled_orders": 0,
+  "gross": 46684.83,
+  "cancelled": 0.0,
+  "net": 46684.83,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-16",
+  "orders": 69,
+  "cancelled_orders": 0,
+  "gross": 66961.96,
+  "cancelled": 0.0,
+  "net": 66961.96,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-17",
+  "orders": 86,
+  "cancelled_orders": 0,
+  "gross": 80093.76,
+  "cancelled": 0.0,
+  "net": 80093.76,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-18",
+  "orders": 53,
+  "cancelled_orders": 0,
+  "gross": 52783.44,
+  "cancelled": 0.0,
+  "net": 52783.44,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-19",
+  "orders": 59,
+  "cancelled_orders": 0,
+  "gross": 46467.0,
+  "cancelled": 0.0,
+  "net": 46467.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-20",
+  "orders": 44,
+  "cancelled_orders": 0,
+  "gross": 41022.2,
+  "cancelled": 0.0,
+  "net": 41022.2,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-21",
+  "orders": 38,
+  "cancelled_orders": 0,
+  "gross": 35746.0,
+  "cancelled": 0.0,
+  "net": 35746.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-22",
+  "orders": 53,
+  "cancelled_orders": 0,
+  "gross": 56078.28,
+  "cancelled": 0.0,
+  "net": 56078.28,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-23",
+  "orders": 41,
+  "cancelled_orders": 0,
+  "gross": 35822.34,
+  "cancelled": 0.0,
+  "net": 35822.34,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-24",
+  "orders": 45,
+  "cancelled_orders": 0,
+  "gross": 45253.98,
+  "cancelled": 0.0,
+  "net": 45253.98,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-25",
+  "orders": 60,
+  "cancelled_orders": 0,
+  "gross": 56279.52,
+  "cancelled": 0.0,
+  "net": 56279.52,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-26",
+  "orders": 64,
+  "cancelled_orders": 0,
+  "gross": 64135.61,
+  "cancelled": 0.0,
+  "net": 64135.61,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-27",
+  "orders": 69,
+  "cancelled_orders": 0,
+  "gross": 61969.33,
+  "cancelled": 0.0,
+  "net": 61969.33,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-28",
+  "orders": 57,
+  "cancelled_orders": 0,
+  "gross": 54430.53,
+  "cancelled": 0.0,
+  "net": 54430.53,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-29",
+  "orders": 63,
+  "cancelled_orders": 0,
+  "gross": 61850.73,
+  "cancelled": 0.0,
+  "net": 61850.73,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-11-30",
+  "orders": 85,
+  "cancelled_orders": 0,
+  "gross": 96768.72,
+  "cancelled": 0.0,
+  "net": 96768.72,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-01",
+  "orders": 50,
+  "cancelled_orders": 0,
+  "gross": 51400.85,
+  "cancelled": 0.0,
+  "net": 51400.85,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-02",
+  "orders": 77,
+  "cancelled_orders": 0,
+  "gross": 74377.0,
+  "cancelled": 0.0,
+  "net": 74377.0,
+  "free_orders": 1
+ },
+ {
+  "date": "2025-12-03",
+  "orders": 57,
+  "cancelled_orders": 0,
+  "gross": 71584.0,
+  "cancelled": 0.0,
+  "net": 71584.0,
+  "free_orders": 1
+ },
+ {
+  "date": "2025-12-04",
+  "orders": 58,
+  "cancelled_orders": 0,
+  "gross": 54815.98,
+  "cancelled": 0.0,
+  "net": 54815.98,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-05",
+  "orders": 63,
+  "cancelled_orders": 0,
+  "gross": 71563.9,
+  "cancelled": 0.0,
+  "net": 71563.9,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-06",
+  "orders": 47,
+  "cancelled_orders": 0,
+  "gross": 48952.86,
+  "cancelled": 0.0,
+  "net": 48952.86,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-07",
+  "orders": 34,
+  "cancelled_orders": 0,
+  "gross": 37406.99,
+  "cancelled": 0.0,
+  "net": 37406.99,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-08",
+  "orders": 71,
+  "cancelled_orders": 0,
+  "gross": 55470.58,
+  "cancelled": 0.0,
+  "net": 55470.58,
+  "free_orders": 1
+ },
+ {
+  "date": "2025-12-09",
+  "orders": 64,
+  "cancelled_orders": 0,
+  "gross": 56722.04,
+  "cancelled": 0.0,
+  "net": 56722.04,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-10",
+  "orders": 64,
+  "cancelled_orders": 0,
+  "gross": 56695.82,
+  "cancelled": 0.0,
+  "net": 56695.82,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-11",
+  "orders": 62,
+  "cancelled_orders": 0,
+  "gross": 66206.17,
+  "cancelled": 0.0,
+  "net": 66206.17,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-12",
+  "orders": 94,
+  "cancelled_orders": 0,
+  "gross": 83073.33,
+  "cancelled": 0.0,
+  "net": 83073.33,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-13",
+  "orders": 56,
+  "cancelled_orders": 0,
+  "gross": 53712.85,
+  "cancelled": 0.0,
+  "net": 53712.85,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-14",
+  "orders": 63,
+  "cancelled_orders": 0,
+  "gross": 47467.42,
+  "cancelled": 0.0,
+  "net": 47467.42,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-15",
+  "orders": 75,
+  "cancelled_orders": 0,
+  "gross": 71072.26,
+  "cancelled": 0.0,
+  "net": 71072.26,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-16",
+  "orders": 58,
+  "cancelled_orders": 0,
+  "gross": 52124.95,
+  "cancelled": 0.0,
+  "net": 52124.95,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-17",
+  "orders": 65,
+  "cancelled_orders": 0,
+  "gross": 72977.7,
+  "cancelled": 0.0,
+  "net": 72977.7,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-18",
+  "orders": 67,
+  "cancelled_orders": 0,
+  "gross": 64998.33,
+  "cancelled": 0.0,
+  "net": 64998.33,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-19",
+  "orders": 58,
+  "cancelled_orders": 0,
+  "gross": 57884.04,
+  "cancelled": 0.0,
+  "net": 57884.04,
+  "free_orders": 1
+ },
+ {
+  "date": "2025-12-20",
+  "orders": 68,
+  "cancelled_orders": 0,
+  "gross": 64445.91,
+  "cancelled": 0.0,
+  "net": 64445.91,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-21",
+  "orders": 52,
+  "cancelled_orders": 0,
+  "gross": 42319.67,
+  "cancelled": 0.0,
+  "net": 42319.67,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-22",
+  "orders": 67,
+  "cancelled_orders": 0,
+  "gross": 69630.12,
+  "cancelled": 0.0,
+  "net": 69630.12,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-23",
+  "orders": 52,
+  "cancelled_orders": 0,
+  "gross": 45245.24,
+  "cancelled": 0.0,
+  "net": 45245.24,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-24",
+  "orders": 73,
+  "cancelled_orders": 0,
+  "gross": 86431.87,
+  "cancelled": 0.0,
+  "net": 86431.87,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-25",
+  "orders": 50,
+  "cancelled_orders": 0,
+  "gross": 49337.89,
+  "cancelled": 0.0,
+  "net": 49337.89,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-26",
+  "orders": 59,
+  "cancelled_orders": 0,
+  "gross": 64640.26,
+  "cancelled": 0.0,
+  "net": 64640.26,
+  "free_orders": 1
+ },
+ {
+  "date": "2025-12-27",
+  "orders": 39,
+  "cancelled_orders": 0,
+  "gross": 42219.8,
+  "cancelled": 0.0,
+  "net": 42219.8,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-28",
+  "orders": 61,
+  "cancelled_orders": 0,
+  "gross": 59025.52,
+  "cancelled": 0.0,
+  "net": 59025.52,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-29",
+  "orders": 38,
+  "cancelled_orders": 0,
+  "gross": 33425.12,
+  "cancelled": 0.0,
+  "net": 33425.12,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-30",
+  "orders": 41,
+  "cancelled_orders": 0,
+  "gross": 38966.95,
+  "cancelled": 0.0,
+  "net": 38966.95,
+  "free_orders": 0
+ },
+ {
+  "date": "2025-12-31",
+  "orders": 27,
+  "cancelled_orders": 0,
+  "gross": 26147.33,
+  "cancelled": 0.0,
+  "net": 26147.33,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-01",
+  "orders": 35,
+  "cancelled_orders": 0,
+  "gross": 27819.21,
+  "cancelled": 0.0,
+  "net": 27819.21,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-02",
+  "orders": 33,
+  "cancelled_orders": 0,
+  "gross": 34477.47,
+  "cancelled": 0.0,
+  "net": 34477.47,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-03",
+  "orders": 46,
+  "cancelled_orders": 0,
+  "gross": 40328.31,
+  "cancelled": 0.0,
+  "net": 40328.31,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-04",
+  "orders": 44,
+  "cancelled_orders": 0,
+  "gross": 37931.8,
+  "cancelled": 0.0,
+  "net": 37931.8,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-05",
+  "orders": 52,
+  "cancelled_orders": 0,
+  "gross": 52733.05,
+  "cancelled": 0.0,
+  "net": 52733.05,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-06",
+  "orders": 67,
+  "cancelled_orders": 0,
+  "gross": 68455.0,
+  "cancelled": 0.0,
+  "net": 68455.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-07",
+  "orders": 44,
+  "cancelled_orders": 0,
+  "gross": 41278.76,
+  "cancelled": 0.0,
+  "net": 41278.76,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-01-08",
+  "orders": 57,
+  "cancelled_orders": 0,
+  "gross": 52975.46,
+  "cancelled": 0.0,
+  "net": 52975.46,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-09",
+  "orders": 33,
+  "cancelled_orders": 0,
+  "gross": 33460.08,
+  "cancelled": 0.0,
+  "net": 33460.08,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-10",
+  "orders": 31,
+  "cancelled_orders": 0,
+  "gross": 20590.06,
+  "cancelled": 0.0,
+  "net": 20590.06,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-11",
+  "orders": 22,
+  "cancelled_orders": 0,
+  "gross": 23840.04,
+  "cancelled": 0.0,
+  "net": 23840.04,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-12",
+  "orders": 51,
+  "cancelled_orders": 0,
+  "gross": 46539.99,
+  "cancelled": 0.0,
+  "net": 46539.99,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-13",
+  "orders": 63,
+  "cancelled_orders": 0,
+  "gross": 52712.61,
+  "cancelled": 0.0,
+  "net": 52712.61,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-14",
+  "orders": 68,
+  "cancelled_orders": 0,
+  "gross": 64086.08,
+  "cancelled": 0.0,
+  "net": 64086.08,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-15",
+  "orders": 61,
+  "cancelled_orders": 0,
+  "gross": 57998.87,
+  "cancelled": 0.0,
+  "net": 57998.87,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-16",
+  "orders": 74,
+  "cancelled_orders": 0,
+  "gross": 66929.93,
+  "cancelled": 0.0,
+  "net": 66929.93,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-01-17",
+  "orders": 38,
+  "cancelled_orders": 0,
+  "gross": 27323.08,
+  "cancelled": 0.0,
+  "net": 27323.08,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-18",
+  "orders": 49,
+  "cancelled_orders": 0,
+  "gross": 45021.47,
+  "cancelled": 0.0,
+  "net": 45021.47,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-19",
+  "orders": 58,
+  "cancelled_orders": 0,
+  "gross": 59331.47,
+  "cancelled": 0.0,
+  "net": 59331.47,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-20",
+  "orders": 51,
+  "cancelled_orders": 0,
+  "gross": 47809.75,
+  "cancelled": 0.0,
+  "net": 47809.75,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-21",
+  "orders": 48,
+  "cancelled_orders": 0,
+  "gross": 45103.55,
+  "cancelled": 0.0,
+  "net": 45103.55,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-22",
+  "orders": 75,
+  "cancelled_orders": 0,
+  "gross": 68572.6,
+  "cancelled": 0.0,
+  "net": 68572.6,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-23",
+  "orders": 33,
+  "cancelled_orders": 0,
+  "gross": 30017.55,
+  "cancelled": 0.0,
+  "net": 30017.55,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-24",
+  "orders": 34,
+  "cancelled_orders": 0,
+  "gross": 38943.51,
+  "cancelled": 0.0,
+  "net": 38943.51,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-25",
+  "orders": 35,
+  "cancelled_orders": 0,
+  "gross": 34158.33,
+  "cancelled": 0.0,
+  "net": 34158.33,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-26",
+  "orders": 67,
+  "cancelled_orders": 0,
+  "gross": 65440.98,
+  "cancelled": 0.0,
+  "net": 65440.98,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-27",
+  "orders": 66,
+  "cancelled_orders": 0,
+  "gross": 61569.99,
+  "cancelled": 0.0,
+  "net": 61569.99,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-28",
+  "orders": 54,
+  "cancelled_orders": 0,
+  "gross": 50510.98,
+  "cancelled": 0.0,
+  "net": 50510.98,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-29",
+  "orders": 50,
+  "cancelled_orders": 0,
+  "gross": 44383.51,
+  "cancelled": 0.0,
+  "net": 44383.51,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-30",
+  "orders": 36,
+  "cancelled_orders": 0,
+  "gross": 36577.47,
+  "cancelled": 0.0,
+  "net": 36577.47,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-01-31",
+  "orders": 53,
+  "cancelled_orders": 0,
+  "gross": 45419.83,
+  "cancelled": 0.0,
+  "net": 45419.83,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-01",
+  "orders": 50,
+  "cancelled_orders": 0,
+  "gross": 41027.71,
+  "cancelled": 0.0,
+  "net": 41027.71,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-02",
+  "orders": 68,
+  "cancelled_orders": 0,
+  "gross": 72676.73,
+  "cancelled": 0.0,
+  "net": 72676.73,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-03",
+  "orders": 47,
+  "cancelled_orders": 0,
+  "gross": 55230.19,
+  "cancelled": 0.0,
+  "net": 55230.19,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-04",
+  "orders": 48,
+  "cancelled_orders": 0,
+  "gross": 52935.59,
+  "cancelled": 0.0,
+  "net": 52935.59,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-05",
+  "orders": 35,
+  "cancelled_orders": 0,
+  "gross": 36429.52,
+  "cancelled": 0.0,
+  "net": 36429.52,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-06",
+  "orders": 39,
+  "cancelled_orders": 0,
+  "gross": 32289.11,
+  "cancelled": 0.0,
+  "net": 32289.11,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-07",
+  "orders": 59,
+  "cancelled_orders": 0,
+  "gross": 59628.71,
+  "cancelled": 0.0,
+  "net": 59628.71,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-08",
+  "orders": 44,
+  "cancelled_orders": 0,
+  "gross": 31424.64,
+  "cancelled": 0.0,
+  "net": 31424.64,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-09",
+  "orders": 52,
+  "cancelled_orders": 0,
+  "gross": 49430.52,
+  "cancelled": 0.0,
+  "net": 49430.52,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-10",
+  "orders": 46,
+  "cancelled_orders": 0,
+  "gross": 42480.44,
+  "cancelled": 0.0,
+  "net": 42480.44,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-11",
+  "orders": 57,
+  "cancelled_orders": 0,
+  "gross": 43237.78,
+  "cancelled": 0.0,
+  "net": 43237.78,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-12",
+  "orders": 60,
+  "cancelled_orders": 0,
+  "gross": 57421.59,
+  "cancelled": 0.0,
+  "net": 57421.59,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-13",
+  "orders": 44,
+  "cancelled_orders": 0,
+  "gross": 49075.5,
+  "cancelled": 0.0,
+  "net": 49075.5,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-14",
+  "orders": 36,
+  "cancelled_orders": 0,
+  "gross": 35512.98,
+  "cancelled": 0.0,
+  "net": 35512.98,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-15",
+  "orders": 50,
+  "cancelled_orders": 0,
+  "gross": 42287.74,
+  "cancelled": 0.0,
+  "net": 42287.74,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-16",
+  "orders": 47,
+  "cancelled_orders": 0,
+  "gross": 41793.93,
+  "cancelled": 0.0,
+  "net": 41793.93,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-17",
+  "orders": 54,
+  "cancelled_orders": 0,
+  "gross": 49421.44,
+  "cancelled": 0.0,
+  "net": 49421.44,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-18",
+  "orders": 56,
+  "cancelled_orders": 0,
+  "gross": 44596.8,
+  "cancelled": 0.0,
+  "net": 44596.8,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-19",
+  "orders": 44,
+  "cancelled_orders": 0,
+  "gross": 40834.02,
+  "cancelled": 0.0,
+  "net": 40834.02,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-20",
+  "orders": 35,
+  "cancelled_orders": 0,
+  "gross": 32017.5,
+  "cancelled": 0.0,
+  "net": 32017.5,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-21",
+  "orders": 38,
+  "cancelled_orders": 0,
+  "gross": 29742.47,
+  "cancelled": 0.0,
+  "net": 29742.47,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-22",
+  "orders": 42,
+  "cancelled_orders": 0,
+  "gross": 35757.09,
+  "cancelled": 0.0,
+  "net": 35757.09,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-23",
+  "orders": 66,
+  "cancelled_orders": 0,
+  "gross": 54495.5,
+  "cancelled": 0.0,
+  "net": 54495.5,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-24",
+  "orders": 50,
+  "cancelled_orders": 0,
+  "gross": 47522.99,
+  "cancelled": 0.0,
+  "net": 47522.99,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-25",
+  "orders": 60,
+  "cancelled_orders": 0,
+  "gross": 61898.54,
+  "cancelled": 0.0,
+  "net": 61898.54,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-26",
+  "orders": 47,
+  "cancelled_orders": 0,
+  "gross": 43126.89,
+  "cancelled": 0.0,
+  "net": 43126.89,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-27",
+  "orders": 42,
+  "cancelled_orders": 0,
+  "gross": 38001.29,
+  "cancelled": 0.0,
+  "net": 38001.29,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-02-28",
+  "orders": 54,
+  "cancelled_orders": 0,
+  "gross": 50253.04,
+  "cancelled": 0.0,
+  "net": 50253.04,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-01",
+  "orders": 37,
+  "cancelled_orders": 0,
+  "gross": 38420.49,
+  "cancelled": 0.0,
+  "net": 38420.49,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-02",
+  "orders": 59,
+  "cancelled_orders": 0,
+  "gross": 57097.23,
+  "cancelled": 0.0,
+  "net": 57097.23,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-03",
+  "orders": 49,
+  "cancelled_orders": 0,
+  "gross": 52698.52,
+  "cancelled": 0.0,
+  "net": 52698.52,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-04",
+  "orders": 40,
+  "cancelled_orders": 0,
+  "gross": 40935.39,
+  "cancelled": 0.0,
+  "net": 40935.39,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-05",
+  "orders": 35,
+  "cancelled_orders": 0,
+  "gross": 37214.09,
+  "cancelled": 0.0,
+  "net": 37214.09,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-06",
+  "orders": 31,
+  "cancelled_orders": 0,
+  "gross": 37340.17,
+  "cancelled": 0.0,
+  "net": 37340.17,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-07",
+  "orders": 45,
+  "cancelled_orders": 0,
+  "gross": 42750.19,
+  "cancelled": 0.0,
+  "net": 42750.19,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-08",
+  "orders": 48,
+  "cancelled_orders": 0,
+  "gross": 49282.91,
+  "cancelled": 0.0,
+  "net": 49282.91,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-09",
+  "orders": 41,
+  "cancelled_orders": 0,
+  "gross": 41048.0,
+  "cancelled": 0.0,
+  "net": 41048.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-10",
+  "orders": 49,
+  "cancelled_orders": 0,
+  "gross": 57546.01,
+  "cancelled": 0.0,
+  "net": 57546.01,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-11",
+  "orders": 56,
+  "cancelled_orders": 0,
+  "gross": 49556.05,
+  "cancelled": 0.0,
+  "net": 49556.05,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-12",
+  "orders": 40,
+  "cancelled_orders": 0,
+  "gross": 42116.96,
+  "cancelled": 0.0,
+  "net": 42116.96,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-13",
+  "orders": 32,
+  "cancelled_orders": 0,
+  "gross": 26798.87,
+  "cancelled": 0.0,
+  "net": 26798.87,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-14",
+  "orders": 39,
+  "cancelled_orders": 0,
+  "gross": 38492.51,
+  "cancelled": 0.0,
+  "net": 38492.51,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-15",
+  "orders": 46,
+  "cancelled_orders": 0,
+  "gross": 42590.39,
+  "cancelled": 0.0,
+  "net": 42590.39,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-16",
+  "orders": 47,
+  "cancelled_orders": 0,
+  "gross": 54994.5,
+  "cancelled": 0.0,
+  "net": 54994.5,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-17",
+  "orders": 48,
+  "cancelled_orders": 0,
+  "gross": 43093.62,
+  "cancelled": 0.0,
+  "net": 43093.62,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-18",
+  "orders": 46,
+  "cancelled_orders": 0,
+  "gross": 42628.0,
+  "cancelled": 0.0,
+  "net": 42628.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-19",
+  "orders": 45,
+  "cancelled_orders": 0,
+  "gross": 42422.23,
+  "cancelled": 0.0,
+  "net": 42422.23,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-20",
+  "orders": 47,
+  "cancelled_orders": 0,
+  "gross": 47762.07,
+  "cancelled": 0.0,
+  "net": 47762.07,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-21",
+  "orders": 40,
+  "cancelled_orders": 0,
+  "gross": 39165.37,
+  "cancelled": 0.0,
+  "net": 39165.37,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-03-22",
+  "orders": 29,
+  "cancelled_orders": 0,
+  "gross": 25280.0,
+  "cancelled": 0.0,
+  "net": 25280.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-23",
+  "orders": 55,
+  "cancelled_orders": 0,
+  "gross": 46458.95,
+  "cancelled": 0.0,
+  "net": 46458.95,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-24",
+  "orders": 48,
+  "cancelled_orders": 0,
+  "gross": 46806.09,
+  "cancelled": 0.0,
+  "net": 46806.09,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-25",
+  "orders": 54,
+  "cancelled_orders": 0,
+  "gross": 47915.54,
+  "cancelled": 0.0,
+  "net": 47915.54,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-26",
+  "orders": 50,
+  "cancelled_orders": 0,
+  "gross": 40497.26,
+  "cancelled": 0.0,
+  "net": 40497.26,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-03-27",
+  "orders": 59,
+  "cancelled_orders": 0,
+  "gross": 58923.12,
+  "cancelled": 0.0,
+  "net": 58923.12,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-28",
+  "orders": 45,
+  "cancelled_orders": 0,
+  "gross": 47559.13,
+  "cancelled": 0.0,
+  "net": 47559.13,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-29",
+  "orders": 42,
+  "cancelled_orders": 0,
+  "gross": 42652.45,
+  "cancelled": 0.0,
+  "net": 42652.45,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-30",
+  "orders": 58,
+  "cancelled_orders": 0,
+  "gross": 49866.91,
+  "cancelled": 0.0,
+  "net": 49866.91,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-03-31",
+  "orders": 54,
+  "cancelled_orders": 0,
+  "gross": 50603.32,
+  "cancelled": 0.0,
+  "net": 50603.32,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-04-01",
+  "orders": 53,
+  "cancelled_orders": 0,
+  "gross": 45303.26,
+  "cancelled": 0.0,
+  "net": 45303.26,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-04-02",
+  "orders": 56,
+  "cancelled_orders": 0,
+  "gross": 54682.93,
+  "cancelled": 0.0,
+  "net": 54682.93,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-03",
+  "orders": 42,
+  "cancelled_orders": 0,
+  "gross": 41327.92,
+  "cancelled": 0.0,
+  "net": 41327.92,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-04",
+  "orders": 70,
+  "cancelled_orders": 0,
+  "gross": 66527.74,
+  "cancelled": 0.0,
+  "net": 66527.74,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-05",
+  "orders": 36,
+  "cancelled_orders": 0,
+  "gross": 34928.47,
+  "cancelled": 0.0,
+  "net": 34928.47,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-06",
+  "orders": 55,
+  "cancelled_orders": 0,
+  "gross": 50161.18,
+  "cancelled": 0.0,
+  "net": 50161.18,
+  "free_orders": 3
+ },
+ {
+  "date": "2026-04-07",
+  "orders": 43,
+  "cancelled_orders": 0,
+  "gross": 43308.33,
+  "cancelled": 0.0,
+  "net": 43308.33,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-08",
+  "orders": 50,
+  "cancelled_orders": 0,
+  "gross": 50099.0,
+  "cancelled": 0.0,
+  "net": 50099.0,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-04-09",
+  "orders": 47,
+  "cancelled_orders": 0,
+  "gross": 47215.56,
+  "cancelled": 0.0,
+  "net": 47215.56,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-10",
+  "orders": 100,
+  "cancelled_orders": 0,
+  "gross": 43122.39,
+  "cancelled": 0.0,
+  "net": 43122.39,
+  "free_orders": 54
+ },
+ {
+  "date": "2026-04-11",
+  "orders": 38,
+  "cancelled_orders": 0,
+  "gross": 28745.97,
+  "cancelled": 0.0,
+  "net": 28745.97,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-12",
+  "orders": 32,
+  "cancelled_orders": 0,
+  "gross": 34270.8,
+  "cancelled": 0.0,
+  "net": 34270.8,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-13",
+  "orders": 45,
+  "cancelled_orders": 0,
+  "gross": 38755.24,
+  "cancelled": 0.0,
+  "net": 38755.24,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-14",
+  "orders": 37,
+  "cancelled_orders": 0,
+  "gross": 34983.0,
+  "cancelled": 0.0,
+  "net": 34983.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-15",
+  "orders": 44,
+  "cancelled_orders": 0,
+  "gross": 47919.72,
+  "cancelled": 0.0,
+  "net": 47919.72,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-16",
+  "orders": 40,
+  "cancelled_orders": 0,
+  "gross": 32827.82,
+  "cancelled": 0.0,
+  "net": 32827.82,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-17",
+  "orders": 55,
+  "cancelled_orders": 0,
+  "gross": 50816.38,
+  "cancelled": 0.0,
+  "net": 50816.38,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-18",
+  "orders": 31,
+  "cancelled_orders": 0,
+  "gross": 24427.01,
+  "cancelled": 0.0,
+  "net": 24427.01,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-19",
+  "orders": 40,
+  "cancelled_orders": 0,
+  "gross": 32173.89,
+  "cancelled": 0.0,
+  "net": 32173.89,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-04-20",
+  "orders": 37,
+  "cancelled_orders": 0,
+  "gross": 43461.99,
+  "cancelled": 0.0,
+  "net": 43461.99,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-04-21",
+  "orders": 41,
+  "cancelled_orders": 0,
+  "gross": 37059.59,
+  "cancelled": 0.0,
+  "net": 37059.59,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-22",
+  "orders": 34,
+  "cancelled_orders": 0,
+  "gross": 33016.75,
+  "cancelled": 0.0,
+  "net": 33016.75,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-23",
+  "orders": 46,
+  "cancelled_orders": 0,
+  "gross": 45289.46,
+  "cancelled": 0.0,
+  "net": 45289.46,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-24",
+  "orders": 43,
+  "cancelled_orders": 0,
+  "gross": 39499.08,
+  "cancelled": 0.0,
+  "net": 39499.08,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-25",
+  "orders": 54,
+  "cancelled_orders": 0,
+  "gross": 53321.66,
+  "cancelled": 0.0,
+  "net": 53321.66,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-26",
+  "orders": 31,
+  "cancelled_orders": 0,
+  "gross": 28694.96,
+  "cancelled": 0.0,
+  "net": 28694.96,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-27",
+  "orders": 51,
+  "cancelled_orders": 0,
+  "gross": 52059.97,
+  "cancelled": 0.0,
+  "net": 52059.97,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-28",
+  "orders": 38,
+  "cancelled_orders": 0,
+  "gross": 42600.82,
+  "cancelled": 0.0,
+  "net": 42600.82,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-29",
+  "orders": 55,
+  "cancelled_orders": 0,
+  "gross": 48469.08,
+  "cancelled": 0.0,
+  "net": 48469.08,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-04-30",
+  "orders": 47,
+  "cancelled_orders": 0,
+  "gross": 46422.73,
+  "cancelled": 0.0,
+  "net": 46422.73,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-01",
+  "orders": 31,
+  "cancelled_orders": 0,
+  "gross": 25660.92,
+  "cancelled": 0.0,
+  "net": 25660.92,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-02",
+  "orders": 43,
+  "cancelled_orders": 0,
+  "gross": 39904.98,
+  "cancelled": 0.0,
+  "net": 39904.98,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-05-03",
+  "orders": 32,
+  "cancelled_orders": 0,
+  "gross": 30330.51,
+  "cancelled": 0.0,
+  "net": 30330.51,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-04",
+  "orders": 53,
+  "cancelled_orders": 0,
+  "gross": 46596.52,
+  "cancelled": 0.0,
+  "net": 46596.52,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-05",
+  "orders": 43,
+  "cancelled_orders": 0,
+  "gross": 40550.95,
+  "cancelled": 0.0,
+  "net": 40550.95,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-06",
+  "orders": 46,
+  "cancelled_orders": 0,
+  "gross": 41818.18,
+  "cancelled": 0.0,
+  "net": 41818.18,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-07",
+  "orders": 51,
+  "cancelled_orders": 0,
+  "gross": 49614.19,
+  "cancelled": 0.0,
+  "net": 49614.19,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-08",
+  "orders": 30,
+  "cancelled_orders": 0,
+  "gross": 32723.9,
+  "cancelled": 0.0,
+  "net": 32723.9,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-09",
+  "orders": 41,
+  "cancelled_orders": 0,
+  "gross": 41552.82,
+  "cancelled": 0.0,
+  "net": 41552.82,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-10",
+  "orders": 34,
+  "cancelled_orders": 0,
+  "gross": 36711.63,
+  "cancelled": 0.0,
+  "net": 36711.63,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-11",
+  "orders": 52,
+  "cancelled_orders": 0,
+  "gross": 50596.29,
+  "cancelled": 0.0,
+  "net": 50596.29,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-12",
+  "orders": 45,
+  "cancelled_orders": 0,
+  "gross": 43874.99,
+  "cancelled": 0.0,
+  "net": 43874.99,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-13",
+  "orders": 31,
+  "cancelled_orders": 0,
+  "gross": 29550.0,
+  "cancelled": 0.0,
+  "net": 29550.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-14",
+  "orders": 28,
+  "cancelled_orders": 0,
+  "gross": 26966.0,
+  "cancelled": 0.0,
+  "net": 26966.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-15",
+  "orders": 33,
+  "cancelled_orders": 0,
+  "gross": 33252.45,
+  "cancelled": 0.0,
+  "net": 33252.45,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-16",
+  "orders": 27,
+  "cancelled_orders": 0,
+  "gross": 23068.82,
+  "cancelled": 0.0,
+  "net": 23068.82,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-17",
+  "orders": 29,
+  "cancelled_orders": 0,
+  "gross": 34544.04,
+  "cancelled": 0.0,
+  "net": 34544.04,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-18",
+  "orders": 36,
+  "cancelled_orders": 0,
+  "gross": 31905.98,
+  "cancelled": 0.0,
+  "net": 31905.98,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-19",
+  "orders": 40,
+  "cancelled_orders": 0,
+  "gross": 33158.0,
+  "cancelled": 0.0,
+  "net": 33158.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-20",
+  "orders": 40,
+  "cancelled_orders": 0,
+  "gross": 37777.0,
+  "cancelled": 0.0,
+  "net": 37777.0,
+  "free_orders": 3
+ },
+ {
+  "date": "2026-05-21",
+  "orders": 27,
+  "cancelled_orders": 0,
+  "gross": 23666.11,
+  "cancelled": 0.0,
+  "net": 23666.11,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-22",
+  "orders": 40,
+  "cancelled_orders": 0,
+  "gross": 39494.01,
+  "cancelled": 0.0,
+  "net": 39494.01,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-23",
+  "orders": 46,
+  "cancelled_orders": 0,
+  "gross": 36838.91,
+  "cancelled": 0.0,
+  "net": 36838.91,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-24",
+  "orders": 35,
+  "cancelled_orders": 0,
+  "gross": 32047.42,
+  "cancelled": 0.0,
+  "net": 32047.42,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-25",
+  "orders": 34,
+  "cancelled_orders": 0,
+  "gross": 26673.06,
+  "cancelled": 0.0,
+  "net": 26673.06,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-26",
+  "orders": 36,
+  "cancelled_orders": 0,
+  "gross": 27882.03,
+  "cancelled": 0.0,
+  "net": 27882.03,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-27",
+  "orders": 47,
+  "cancelled_orders": 0,
+  "gross": 44752.06,
+  "cancelled": 0.0,
+  "net": 44752.06,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-05-28",
+  "orders": 40,
+  "cancelled_orders": 0,
+  "gross": 32920.1,
+  "cancelled": 0.0,
+  "net": 32920.1,
+  "free_orders": 2
+ },
+ {
+  "date": "2026-05-29",
+  "orders": 49,
+  "cancelled_orders": 0,
+  "gross": 44009.11,
+  "cancelled": 0.0,
+  "net": 44009.11,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-30",
+  "orders": 64,
+  "cancelled_orders": 0,
+  "gross": 52038.18,
+  "cancelled": 0.0,
+  "net": 52038.18,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-05-31",
+  "orders": 28,
+  "cancelled_orders": 0,
+  "gross": 22380.19,
+  "cancelled": 0.0,
+  "net": 22380.19,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-06-01",
+  "orders": 69,
+  "cancelled_orders": 0,
+  "gross": 28502.02,
+  "cancelled": 0.0,
+  "net": 28502.02,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-06-02",
+  "orders": 75,
+  "cancelled_orders": 0,
+  "gross": 29129.17,
+  "cancelled": 0.0,
+  "net": 29129.17,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-06-03",
+  "orders": 58,
+  "cancelled_orders": 0,
+  "gross": 21756.22,
+  "cancelled": 0.0,
+  "net": 21756.22,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-06-04",
+  "orders": 80,
+  "cancelled_orders": 0,
+  "gross": 30975.56,
+  "cancelled": 0.0,
+  "net": 30975.56,
+  "free_orders": 11
+ },
+ {
+  "date": "2026-06-05",
+  "orders": 54,
+  "cancelled_orders": 0,
+  "gross": 19628.86,
+  "cancelled": 0.0,
+  "net": 19628.86,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-06-06",
+  "orders": 70,
+  "cancelled_orders": 0,
+  "gross": 25960.94,
+  "cancelled": 0.0,
+  "net": 25960.94,
+  "free_orders": 2
+ },
+ {
+  "date": "2026-06-07",
+  "orders": 71,
+  "cancelled_orders": 0,
+  "gross": 34804.89,
+  "cancelled": 0.0,
+  "net": 34804.89,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-06-08",
+  "orders": 92,
+  "cancelled_orders": 0,
+  "gross": 36099.91,
+  "cancelled": 0.0,
+  "net": 36099.91,
+  "free_orders": 2
+ },
+ {
+  "date": "2026-06-09",
+  "orders": 97,
+  "cancelled_orders": 0,
+  "gross": 43494.79,
+  "cancelled": 0.0,
+  "net": 43494.79,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-06-10",
+  "orders": 72,
+  "cancelled_orders": 0,
+  "gross": 28530.07,
+  "cancelled": 0.0,
+  "net": 28530.07,
+  "free_orders": 8
+ },
+ {
+  "date": "2026-06-11",
+  "orders": 73,
+  "cancelled_orders": 0,
+  "gross": 34306.86,
+  "cancelled": 0.0,
+  "net": 34306.86,
+  "free_orders": 4
+ },
+ {
+  "date": "2026-06-12",
+  "orders": 78,
+  "cancelled_orders": 0,
+  "gross": 39821.98,
+  "cancelled": 0.0,
+  "net": 39821.98,
+  "free_orders": 4
+ },
+ {
+  "date": "2026-06-13",
+  "orders": 67,
+  "cancelled_orders": 0,
+  "gross": 35937.95,
+  "cancelled": 0.0,
+  "net": 35937.95,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-06-14",
+  "orders": 89,
+  "cancelled_orders": 0,
+  "gross": 51190.2,
+  "cancelled": 0.0,
+  "net": 51190.2,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-06-15",
+  "orders": 89,
+  "cancelled_orders": 0,
+  "gross": 69688.07,
+  "cancelled": 0.0,
+  "net": 69688.07,
+  "free_orders": 10
+ },
+ {
+  "date": "2026-06-16",
+  "orders": 47,
+  "cancelled_orders": 0,
+  "gross": 42595.0,
+  "cancelled": 0.0,
+  "net": 42595.0,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-06-17",
+  "orders": 58,
+  "cancelled_orders": 0,
+  "gross": 55496.99,
+  "cancelled": 0.0,
+  "net": 55496.99,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-06-18",
+  "orders": 74,
+  "cancelled_orders": 0,
+  "gross": 69909.99,
+  "cancelled": 0.0,
+  "net": 69909.99,
+  "free_orders": 8
+ },
+ {
+  "date": "2026-06-19",
+  "orders": 61,
+  "cancelled_orders": 0,
+  "gross": 63843.57,
+  "cancelled": 0.0,
+  "net": 63843.57,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-06-20",
+  "orders": 66,
+  "cancelled_orders": 0,
+  "gross": 76635.97,
+  "cancelled": 0.0,
+  "net": 76635.97,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-06-21",
+  "orders": 84,
+  "cancelled_orders": 0,
+  "gross": 85495.93,
+  "cancelled": 0.0,
+  "net": 85495.93,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-06-22",
+  "orders": 83,
+  "cancelled_orders": 0,
+  "gross": 92689.97,
+  "cancelled": 0.0,
+  "net": 92689.97,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-06-23",
+  "orders": 82,
+  "cancelled_orders": 0,
+  "gross": 72609.53,
+  "cancelled": 0.0,
+  "net": 72609.53,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-06-24",
+  "orders": 116,
+  "cancelled_orders": 0,
+  "gross": 113093.95,
+  "cancelled": 0.0,
+  "net": 113093.95,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-06-25",
+  "orders": 94,
+  "cancelled_orders": 0,
+  "gross": 78409.28,
+  "cancelled": 0.0,
+  "net": 78409.28,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-06-26",
+  "orders": 108,
+  "cancelled_orders": 0,
+  "gross": 103334.41,
+  "cancelled": 0.0,
+  "net": 103334.41,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-06-27",
+  "orders": 144,
+  "cancelled_orders": 0,
+  "gross": 113709.56,
+  "cancelled": 0.0,
+  "net": 113709.56,
+  "free_orders": 4
+ },
+ {
+  "date": "2026-06-28",
+  "orders": 182,
+  "cancelled_orders": 0,
+  "gross": 179077.3,
+  "cancelled": 0.0,
+  "net": 179077.3,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-06-29",
+  "orders": 158,
+  "cancelled_orders": 0,
+  "gross": 136943.88,
+  "cancelled": 0.0,
+  "net": 136943.88,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-06-30",
+  "orders": 155,
+  "cancelled_orders": 0,
+  "gross": 151323.57,
+  "cancelled": 0.0,
+  "net": 151323.57,
+  "free_orders": 4
+ },
+ {
+  "date": "2026-07-01",
+  "orders": 114,
+  "cancelled_orders": 0,
+  "gross": 84855.06,
+  "cancelled": 0.0,
+  "net": 84855.06,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-07-02",
+  "orders": 80,
+  "cancelled_orders": 0,
+  "gross": 65406.64,
+  "cancelled": 0.0,
+  "net": 65406.64,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-07-03",
+  "orders": 102,
+  "cancelled_orders": 0,
+  "gross": 73806.0,
+  "cancelled": 0.0,
+  "net": 73806.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-07-04",
+  "orders": 95,
+  "cancelled_orders": 0,
+  "gross": 67866.59,
+  "cancelled": 0.0,
+  "net": 67866.59,
+  "free_orders": 6
+ },
+ {
+  "date": "2026-07-05",
+  "orders": 141,
+  "cancelled_orders": 0,
+  "gross": 98089.49,
+  "cancelled": 0.0,
+  "net": 98089.49,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-07-06",
+  "orders": 121,
+  "cancelled_orders": 0,
+  "gross": 97821.37,
+  "cancelled": 0.0,
+  "net": 97821.37,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-07-07",
+  "orders": 145,
+  "cancelled_orders": 0,
+  "gross": 113432.61,
+  "cancelled": 0.0,
+  "net": 113432.61,
+  "free_orders": 5
+ },
+ {
+  "date": "2026-07-08",
+  "orders": 113,
+  "cancelled_orders": 0,
+  "gross": 86135.78,
+  "cancelled": 0.0,
+  "net": 86135.78,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-07-09",
+  "orders": 138,
+  "cancelled_orders": 0,
+  "gross": 99455.65,
+  "cancelled": 0.0,
+  "net": 99455.65,
+  "free_orders": 8
+ },
+ {
+  "date": "2026-07-10",
+  "orders": 101,
+  "cancelled_orders": 0,
+  "gross": 77771.51,
+  "cancelled": 0.0,
+  "net": 77771.51,
+  "free_orders": 2
+ },
+ {
+  "date": "2026-07-11",
+  "orders": 84,
+  "cancelled_orders": 0,
+  "gross": 51574.0,
+  "cancelled": 0.0,
+  "net": 51574.0,
+  "free_orders": 2
+ },
+ {
+  "date": "2026-07-12",
+  "orders": 90,
+  "cancelled_orders": 0,
+  "gross": 77316.0,
+  "cancelled": 0.0,
+  "net": 77316.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-07-13",
+  "orders": 81,
+  "cancelled_orders": 0,
+  "gross": 58154.3,
+  "cancelled": 0.0,
+  "net": 58154.3,
+  "free_orders": 2
+ },
+ {
+  "date": "2026-07-14",
+  "orders": 160,
+  "cancelled_orders": 0,
+  "gross": 100416.0,
+  "cancelled": 0.0,
+  "net": 100416.0,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-07-15",
+  "orders": 163,
+  "cancelled_orders": 0,
+  "gross": 115953.1,
+  "cancelled": 0.0,
+  "net": 115953.1,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-07-16",
+  "orders": 116,
+  "cancelled_orders": 0,
+  "gross": 82463.0,
+  "cancelled": 0.0,
+  "net": 82463.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-07-17",
+  "orders": 112,
+  "cancelled_orders": 0,
+  "gross": 72039.01,
+  "cancelled": 0.0,
+  "net": 72039.01,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-07-18",
+  "orders": 101,
+  "cancelled_orders": 0,
+  "gross": 69701.0,
+  "cancelled": 0.0,
+  "net": 69701.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-07-19",
+  "orders": 234,
+  "cancelled_orders": 0,
+  "gross": 148110.0,
+  "cancelled": 0.0,
+  "net": 148110.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-07-20",
+  "orders": 188,
+  "cancelled_orders": 0,
+  "gross": 123523.0,
+  "cancelled": 0.0,
+  "net": 123523.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-07-21",
+  "orders": 172,
+  "cancelled_orders": 0,
+  "gross": 107107.0,
+  "cancelled": 0.0,
+  "net": 107107.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-07-22",
+  "orders": 116,
+  "cancelled_orders": 0,
+  "gross": 83347.99,
+  "cancelled": 0.0,
+  "net": 83347.99,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-07-23",
+  "orders": 71,
+  "cancelled_orders": 0,
+  "gross": 44014.01,
+  "cancelled": 0.0,
+  "net": 44014.01,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-07-24",
+  "orders": 28,
+  "cancelled_orders": 0,
+  "gross": 22017.79,
+  "cancelled": 0.0,
+  "net": 22017.79,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-07-25",
+  "orders": 123,
+  "cancelled_orders": 0,
+  "gross": 89643.21,
+  "cancelled": 0.0,
+  "net": 89643.21,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-07-26",
+  "orders": 130,
+  "cancelled_orders": 0,
+  "gross": 93419.51,
+  "cancelled": 0.0,
+  "net": 93419.51,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-07-27",
+  "orders": 112,
+  "cancelled_orders": 0,
+  "gross": 78488.29,
+  "cancelled": 0.0,
+  "net": 78488.29,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-07-28",
+  "orders": 75,
+  "cancelled_orders": 0,
+  "gross": 47984.25,
+  "cancelled": 0.0,
+  "net": 47984.25,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-07-29",
+  "orders": 89,
+  "cancelled_orders": 0,
+  "gross": 66707.0,
+  "cancelled": 0.0,
+  "net": 66707.0,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-07-30",
+  "orders": 80,
+  "cancelled_orders": 0,
+  "gross": 57808.08,
+  "cancelled": 0.0,
+  "net": 57808.08,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-07-31",
+  "orders": 102,
+  "cancelled_orders": 0,
+  "gross": 75551.01,
+  "cancelled": 0.0,
+  "net": 75551.01,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-08-01",
+  "orders": 85,
+  "cancelled_orders": 0,
+  "gross": 57779.2,
+  "cancelled": 0.0,
+  "net": 57779.2,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-08-02",
+  "orders": 107,
+  "cancelled_orders": 0,
+  "gross": 79992.01,
+  "cancelled": 0.0,
+  "net": 79992.01,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-08-03",
+  "orders": 112,
+  "cancelled_orders": 0,
+  "gross": 80342.85,
+  "cancelled": 0.0,
+  "net": 80342.85,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-08-04",
+  "orders": 100,
+  "cancelled_orders": 0,
+  "gross": 79167.65,
+  "cancelled": 0.0,
+  "net": 79167.65,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-08-05",
+  "orders": 96,
+  "cancelled_orders": 0,
+  "gross": 64842.2,
+  "cancelled": 0.0,
+  "net": 64842.2,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-08-06",
+  "orders": 88,
+  "cancelled_orders": 0,
+  "gross": 58358.29,
+  "cancelled": 0.0,
+  "net": 58358.29,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-08-07",
+  "orders": 83,
+  "cancelled_orders": 0,
+  "gross": 65599.03,
+  "cancelled": 0.0,
+  "net": 65599.03,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-08-08",
+  "orders": 115,
+  "cancelled_orders": 0,
+  "gross": 89108.27,
+  "cancelled": 0.0,
+  "net": 89108.27,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-08-09",
+  "orders": 112,
+  "cancelled_orders": 0,
+  "gross": 68792.49,
+  "cancelled": 0.0,
+  "net": 68792.49,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-08-10",
+  "orders": 58,
+  "cancelled_orders": 0,
+  "gross": 52073.84,
+  "cancelled": 0.0,
+  "net": 52073.84,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-08-11",
+  "orders": 67,
+  "cancelled_orders": 0,
+  "gross": 55842.89,
+  "cancelled": 0.0,
+  "net": 55842.89,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-08-12",
+  "orders": 96,
+  "cancelled_orders": 0,
+  "gross": 75526.12,
+  "cancelled": 0.0,
+  "net": 75526.12,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-08-13",
+  "orders": 128,
+  "cancelled_orders": 0,
+  "gross": 96413.88,
+  "cancelled": 0.0,
+  "net": 96413.88,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-08-14",
+  "orders": 104,
+  "cancelled_orders": 0,
+  "gross": 77985.03,
+  "cancelled": 0.0,
+  "net": 77985.03,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-08-15",
+  "orders": 107,
+  "cancelled_orders": 0,
+  "gross": 82112.69,
+  "cancelled": 0.0,
+  "net": 82112.69,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-08-16",
+  "orders": 89,
+  "cancelled_orders": 0,
+  "gross": 58971.77,
+  "cancelled": 0.0,
+  "net": 58971.77,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-08-17",
+  "orders": 108,
+  "cancelled_orders": 0,
+  "gross": 86196.43,
+  "cancelled": 0.0,
+  "net": 86196.43,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-08-18",
+  "orders": 84,
+  "cancelled_orders": 0,
+  "gross": 59408.0,
+  "cancelled": 0.0,
+  "net": 59408.0,
+  "free_orders": 2
+ },
+ {
+  "date": "2026-08-19",
+  "orders": 126,
+  "cancelled_orders": 0,
+  "gross": 82156.03,
+  "cancelled": 0.0,
+  "net": 82156.03,
+  "free_orders": 8
+ },
+ {
+  "date": "2026-08-20",
+  "orders": 126,
+  "cancelled_orders": 0,
+  "gross": 83263.12,
+  "cancelled": 0.0,
+  "net": 83263.12,
+  "free_orders": 12
+ },
+ {
+  "date": "2026-08-21",
+  "orders": 117,
+  "cancelled_orders": 0,
+  "gross": 78206.71,
+  "cancelled": 0.0,
+  "net": 78206.71,
+  "free_orders": 12
+ },
+ {
+  "date": "2026-08-22",
+  "orders": 107,
+  "cancelled_orders": 0,
+  "gross": 66174.75,
+  "cancelled": 0.0,
+  "net": 66174.75,
+  "free_orders": 6
+ },
+ {
+  "date": "2026-08-23",
+  "orders": 95,
+  "cancelled_orders": 0,
+  "gross": 62122.6,
+  "cancelled": 0.0,
+  "net": 62122.6,
+  "free_orders": 0
+ },
+ {
+  "date": "2026-08-24",
+  "orders": 122,
+  "cancelled_orders": 0,
+  "gross": 74839.81,
+  "cancelled": 0.0,
+  "net": 74839.81,
+  "free_orders": 6
+ },
+ {
+  "date": "2026-08-25",
+  "orders": 121,
+  "cancelled_orders": 0,
+  "gross": 79915.99,
+  "cancelled": 0.0,
+  "net": 79915.99,
+  "free_orders": 10
+ },
+ {
+  "date": "2026-08-26",
+  "orders": 118,
+  "cancelled_orders": 0,
+  "gross": 69785.76,
+  "cancelled": 0.0,
+  "net": 69785.76,
+  "free_orders": 5
+ },
+ {
+  "date": "2026-08-27",
+  "orders": 123,
+  "cancelled_orders": 0,
+  "gross": 89309.99,
+  "cancelled": 0.0,
+  "net": 89309.99,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-08-28",
+  "orders": 110,
+  "cancelled_orders": 0,
+  "gross": 77231.01,
+  "cancelled": 0.0,
+  "net": 77231.01,
+  "free_orders": 1
+ },
+ {
+  "date": "2026-09-08",
+  "orders": 105,
+  "cancelled_orders": 0,
+  "gross": 71737.36,
+  "cancelled": 0.0,
+  "net": 71737.36,
+  "free_orders": 3
+ },
+ {
+  "date": "2026-09-10",
+  "orders": 106,
+  "cancelled_orders": 0,
+  "gross": 94745.67,
+  "cancelled": 0.0,
+  "net": 94745.67,
+  "free_orders": 2
+ },
+ {
+  "date": "2026-09-11",
+  "orders": 92,
+  "cancelled_orders": 0,
+  "gross": 71102.0,
+  "cancelled": 0.0,
+  "net": 71102.0,
+  "free_orders": 1
+ }
+]

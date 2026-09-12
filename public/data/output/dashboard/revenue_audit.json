@@ -1,0 +1,144 @@
+{
+ "generated_at": "2026-09-12 13:20:37",
+ "note": "ยอดดิบเก็บใน orders · การปรับทุกครั้งอยู่ใน revenue_adjustment · ยอดที่แสดงอยู่ใน order_revenue — ไม่มีขั้นตอนไหนเขียนทับยอดดิบ",
+ "monthly": [
+  {
+   "month": "2025-11",
+   "orders": 1740,
+   "raw": 1680335.21,
+   "reported": 1680335.21,
+   "delta": 0.0,
+   "adjusted_orders": 0,
+   "pre_reconciled": 0,
+   "sales_report": null,
+   "vs_report": null
+  },
+  {
+   "month": "2025-12",
+   "orders": 1810,
+   "raw": 1770342.75,
+   "reported": 1770342.75,
+   "delta": 0.0,
+   "adjusted_orders": 0,
+   "pre_reconciled": 0,
+   "sales_report": null,
+   "vs_report": null
+  },
+  {
+   "month": "2026-01",
+   "orders": 1528,
+   "raw": 1459020.31,
+   "reported": 1422340.79,
+   "delta": -36679.52,
+   "adjusted_orders": 1415,
+   "pre_reconciled": 0,
+   "sales_report": 1422340.38,
+   "vs_report": 0.41
+  },
+  {
+   "month": "2026-02",
+   "orders": 1370,
+   "raw": 1349080.18,
+   "reported": 1270550.25,
+   "delta": -78529.93,
+   "adjusted_orders": 1192,
+   "pre_reconciled": 0,
+   "sales_report": 1270550.55,
+   "vs_report": -0.3
+  },
+  {
+   "month": "2026-03",
+   "orders": 1414,
+   "raw": 1478449.9,
+   "reported": 1380516.34,
+   "delta": -97933.56,
+   "adjusted_orders": 894,
+   "pre_reconciled": 0,
+   "sales_report": 1380516.57,
+   "vs_report": -0.23
+  },
+  {
+   "month": "2026-04",
+   "orders": 1391,
+   "raw": 1385042.13,
+   "reported": 1271492.7,
+   "delta": -113549.43,
+   "adjusted_orders": 997,
+   "pre_reconciled": 0,
+   "sales_report": 1271492.7,
+   "vs_report": 0.0
+  },
+  {
+   "month": "2026-05",
+   "orders": 1211,
+   "raw": 1201475.45,
+   "reported": 1112859.35,
+   "delta": -88616.1,
+   "adjusted_orders": 936,
+   "pre_reconciled": 0,
+   "sales_report": 1112859.02,
+   "vs_report": 0.33
+  },
+  {
+   "month": "2026-06",
+   "orders": 2646,
+   "raw": 2397270.24,
+   "reported": 1964996.39,
+   "delta": -432273.85,
+   "adjusted_orders": 1993,
+   "pre_reconciled": 0,
+   "sales_report": 1964996.7,
+   "vs_report": -0.31
+  },
+  {
+   "month": "2026-07",
+   "orders": 3577,
+   "raw": 2529978.25,
+   "reported": 2529978.25,
+   "delta": 0.0,
+   "adjusted_orders": 0,
+   "pre_reconciled": 1562,
+   "sales_report": null,
+   "vs_report": null
+  },
+  {
+   "month": "2026-08",
+   "orders": 2904,
+   "raw": 2051518.41,
+   "reported": 2051518.41,
+   "delta": 0.0,
+   "adjusted_orders": 0,
+   "pre_reconciled": 2904,
+   "sales_report": null,
+   "vs_report": null
+  },
+  {
+   "month": "2026-09",
+   "orders": 303,
+   "raw": 237585.03,
+   "reported": 237585.03,
+   "delta": 0.0,
+   "adjusted_orders": 0,
+   "pre_reconciled": 0,
+   "sales_report": null,
+   "vs_report": null
+  }
+ ],
+ "by_rule": [
+  {
+   "rule": "daily_calibration",
+   "n_orders": 7427,
+   "total_delta": -847582.39,
+   "source_kind": "sales_report_excel"
+  }
+ ],
+ "layers": {
+  "mkp_settled": true,
+  "mkp_factor": true,
+  "daily_calibration": true,
+  "manual_cancel_amount": true,
+  "manual_override": true
+ },
+ "calibration_until": "2026-06",
+ "mkp_fix_until": "2026-05"
+}
