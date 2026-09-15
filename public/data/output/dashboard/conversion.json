@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-12 10:04:05",
+ "generated_at": "2026-09-14 14:25:28",
  "formula": {
   "primary": "closes / new_cust  (ปิดการขายจากไฟล์ออเดอร์ ÷ ลูกค้าใหม่จากไฟล์สถิติหน้า)",
   "file_based": "orders_file / new_cust  (ยอดออเดอร์ในไฟล์สถิติหน้า ÷ ลูกค้าใหม่)",
@@ -742,8 +742,8 @@
    "line_off": 2
   },
   "2026-06-12": {
-   "line_off": 3,
-   "fb_hylme": 26,
+   "line_off": 4,
+   "fb_hylme": 25,
    "fb_kaimun": 5
   },
   "2026-06-13": {
@@ -775,27 +775,27 @@
    "line_off": 1
   },
   "2026-06-19": {
-   "line_off": 1,
    "fb_kaimun": 15,
-   "fb_hylme": 29
+   "fb_hylme": 29,
+   "line_off": 1
   },
   "2026-06-20": {
    "fb_hylme": 37,
    "fb_kaimun": 14
   },
   "2026-06-21": {
-   "fb_kaimun": 32,
-   "fb_hylme": 35
+   "fb_hylme": 35,
+   "fb_kaimun": 32
   },
   "2026-06-22": {
-   "line_off": 1,
    "fb_hylme": 46,
-   "fb_kaimun": 27
+   "fb_kaimun": 27,
+   "line_off": 1
   },
   "2026-06-23": {
-   "line_off": 1,
-   "fb_hylme": 39,
-   "fb_kaimun": 28
+   "fb_hylme": 40,
+   "fb_kaimun": 28,
+   "line_off": 1
   },
   "2026-06-24": {
    "fb_hylme": 43,
@@ -807,9 +807,9 @@
    "fb_kaimun": 21
   },
   "2026-06-26": {
-   "line_off": 1,
    "fb_kaimun": 28,
-   "fb_hylme": 57
+   "fb_hylme": 57,
+   "line_off": 1
   },
   "2026-06-27": {
    "fb_kaimun": 47,
@@ -817,9 +817,9 @@
    "line_off": 6
   },
   "2026-06-29": {
-   "line_off": 1,
    "fb_hylme": 69,
-   "fb_kaimun": 50
+   "fb_kaimun": 50,
+   "line_off": 1
   },
   "2026-06-30": {
    "fb_hylme": 75,
@@ -891,25 +891,26 @@
   },
   "2026-07-14": {
    "fb_kaimun": 83,
-   "line_off": 2,
+   "line_off": 1,
+   "line_priv": 1,
    "fb_hylme": 41,
    "fb_non": 13,
    "fb_piw": 1
   },
   "2026-07-15": {
-   "line_off": 1,
+   "line_priv": 1,
    "fb_kaimun": 96,
    "fb_hylme": 42,
    "fb_non": 4
   },
   "2026-07-16": {
-   "line_off": 4,
+   "line_priv": 4,
    "fb_kaimun": 47,
    "fb_hylme": 47,
    "fb_non": 10
   },
   "2026-07-17": {
-   "line_off": 4,
+   "line_priv": 4,
    "fb_kaimun": 52,
    "fb_non": 5,
    "fb_hylme": 34,
@@ -930,37 +931,40 @@
    "fb_piw": 1
   },
   "2026-07-20": {
-   "line_off": 3,
+   "line_priv": 3,
    "fb_kaimun": 104,
    "fb_non": 11,
    "fb_hylme": 58
   },
   "2026-07-21": {
-   "line_off": 3,
+   "line_priv": 2,
    "fb_kaimun": 106,
    "fb_non": 5,
    "fb_hylme": 46,
+   "line_off": 1,
    "fb_piw": 1
   },
   "2026-07-22": {
-   "line_off": 4,
+   "line_priv": 3,
+   "line_off": 1,
    "fb_kaimun": 59,
    "fb_hylme": 34,
    "fb_non": 7
   },
   "2026-07-23": {
-   "fb_kaimun": 38,
-   "fb_hylme": 19
+   "fb_kaimun": 86,
+   "fb_hylme": 51
   },
   "2026-07-24": {
    "fb_kaimun": 11,
-   "line_off": 1,
+   "line_priv": 1,
    "fb_non": 1,
    "fb_hylme": 5
   },
   "2026-07-25": {
    "fb_kaimun": 44,
-   "line_off": 4,
+   "line_off": 2,
+   "line_priv": 2,
    "fb_hylme": 35,
    "fb_piw": 1,
    "fb_non": 6
@@ -975,7 +979,8 @@
    "fb_hylme": 29,
    "fb_kaimun": 52,
    "fb_non": 3,
-   "line_off": 2
+   "line_priv": 1,
+   "line_off": 1
   },
   "2026-07-28": {
    "fb_hylme": 25,
@@ -986,7 +991,8 @@
    "fb_hylme": 32,
    "fb_kaimun": 31,
    "fb_non": 10,
-   "line_off": 3
+   "line_priv": 2,
+   "line_off": 1
   },
   "2026-07-30": {
    "fb_hylme": 22,
@@ -998,7 +1004,7 @@
    "fb_hylme": 27,
    "fb_kaimun": 45,
    "fb_non": 5,
-   "line_off": 2
+   "line_priv": 2
   },
   "2026-08-01": {
    "fb_non": 6,
@@ -1026,7 +1032,7 @@
   "2026-08-05": {
    "fb_kaimun": 53,
    "fb_hylme": 33,
-   "line_off": 3,
+   "line_priv": 1,
    "fb_non": 1
   },
   "2026-08-06": {
@@ -1036,47 +1042,48 @@
   },
   "2026-08-07": {
    "fb_kaimun": 43,
-   "line_off": 3,
+   "line_priv": 2,
    "fb_hylme": 18,
    "fb_non": 5,
+   "line_off": 1,
    "fb_piw": 2
   },
   "2026-08-08": {
    "fb_kaimun": 34,
    "fb_hylme": 26,
    "fb_non": 5,
-   "line_off": 1,
+   "line_priv": 1,
    "fb_piw": 1
   },
   "2026-08-09": {
    "fb_hylme": 39,
    "fb_kaimun": 50,
    "fb_non": 10,
-   "line_off": 1
+   "line_priv": 1
   },
   "2026-08-10": {
    "fb_kaimun": 18,
    "fb_hylme": 16,
-   "line_off": 3,
+   "line_priv": 3,
    "fb_non": 6
   },
   "2026-08-11": {
    "fb_hylme": 22,
    "fb_kaimun": 23,
    "fb_non": 3,
-   "line_off": 3,
+   "line_priv": 3,
    "fb_piw": 1
   },
   "2026-08-12": {
    "fb_kaimun": 49,
    "fb_hylme": 37,
    "fb_non": 6,
-   "line_off": 1
+   "line_priv": 1
   },
   "2026-08-13": {
    "fb_hylme": 48,
    "fb_kaimun": 54,
-   "line_off": 6,
+   "line_priv": 4,
    "fb_piw": 1,
    "fb_non": 4
   },
@@ -1084,13 +1091,13 @@
    "fb_hylme": 34,
    "fb_kaimun": 49,
    "fb_non": 7,
-   "line_off": 1
+   "line_priv": 1
   },
   "2026-08-15": {
    "fb_kaimun": 47,
    "fb_hylme": 28,
    "fb_non": 8,
-   "line_off": 1
+   "line_priv": 1
   },
   "2026-08-16": {
    "fb_kaimun": 43,
@@ -1104,32 +1111,34 @@
   },
   "2026-08-18": {
    "fb_kaimun": 35,
-   "line_off": 2,
+   "line_priv": 2,
    "fb_hylme": 32,
    "fb_non": 4
   },
   "2026-08-19": {
    "fb_kaimun": 53,
    "fb_hylme": 42,
-   "line_off": 13,
+   "line_priv": 12,
    "fb_non": 3,
-   "fb_piw": 1
+   "fb_piw": 1,
+   "line_off": 1
   },
   "2026-08-20": {
    "fb_hylme": 46,
-   "line_off": 14,
+   "line_priv": 14,
    "fb_kaimun": 54,
    "fb_non": 1
   },
   "2026-08-21": {
-   "line_off": 15,
+   "line_priv": 14,
    "fb_hylme": 35,
    "fb_kaimun": 49,
+   "line_off": 1,
    "fb_non": 1
   },
   "2026-08-22": {
    "fb_hylme": 41,
-   "line_off": 11,
+   "line_priv": 11,
    "fb_kaimun": 46,
    "fb_non": 2
   },
@@ -1142,16 +1151,16 @@
    "fb_kaimun": 52,
    "fb_hylme": 35,
    "fb_non": 8,
-   "line_off": 6
+   "line_priv": 6
   },
   "2026-08-25": {
    "fb_kaimun": 51,
-   "line_off": 11,
+   "line_priv": 11,
    "fb_hylme": 37,
    "fb_non": 2
   },
   "2026-08-26": {
-   "line_off": 7,
+   "line_priv": 7,
    "fb_hylme": 30,
    "fb_kaimun": 59,
    "fb_non": 3,
@@ -1160,20 +1169,89 @@
   "2026-08-27": {
    "fb_kaimun": 59,
    "fb_hylme": 37,
-   "line_off": 2,
-   "fb_non": 4
+   "line_priv": 1,
+   "fb_non": 4,
+   "line_off": 1
   },
   "2026-08-28": {
    "fb_kaimun": 60,
    "fb_hylme": 39,
    "fb_non": 2,
-   "line_off": 2
+   "line_priv": 2
+  },
+  "2026-08-29": {
+   "fb_kaimun": 38,
+   "fb_hylme": 18,
+   "fb_non": 3
+  },
+  "2026-08-30": {
+   "fb_kaimun": 78,
+   "fb_hylme": 36,
+   "line_priv": 1,
+   "line_off": 1,
+   "fb_non": 1
+  },
+  "2026-08-31": {
+   "fb_hylme": 26,
+   "fb_kaimun": 45,
+   "line_priv": 5,
+   "fb_non": 1
+  },
+  "2026-09-01": {
+   "fb_hylme": 24,
+   "fb_kaimun": 47,
+   "fb_non": 3,
+   "line_priv": 3
+  },
+  "2026-09-02": {
+   "fb_hylme": 35,
+   "fb_kaimun": 71,
+   "fb_non": 5,
+   "line_priv": 6
+  },
+  "2026-09-03": {
+   "fb_kaimun": 75,
+   "fb_hylme": 31,
+   "fb_non": 10,
+   "line_priv": 6
+  },
+  "2026-09-04": {
+   "fb_non": 6,
+   "fb_hylme": 34,
+   "fb_kaimun": 60,
+   "line_priv": 10
+  },
+  "2026-09-05": {
+   "fb_kaimun": 52,
+   "fb_hylme": 24,
+   "line_priv": 8,
+   "fb_non": 6,
+   "line_off": 1
+  },
+  "2026-09-06": {
+   "fb_hylme": 36,
+   "line_priv": 1,
+   "fb_kaimun": 46,
+   "fb_non": 5,
+   "line_off": 1
+  },
+  "2026-09-07": {
+   "fb_kaimun": 48,
+   "line_priv": 3,
+   "fb_hylme": 32
   },
   "2026-09-08": {
    "fb_kaimun": 57,
    "fb_non": 3,
    "line_priv": 2,
    "fb_hylme": 29
+  },
+  "2026-09-09": {
+   "fb_non": 3,
+   "line_priv": 2,
+   "fb_hylme": 33,
+   "fb_kaimun": 63,
+   "fb_piw": 1
   },
   "2026-09-10": {
    "line_priv": 8,
@@ -1187,6 +1265,16 @@
    "fb_hylme": 28,
    "fb_non": 1,
    "line_priv": 1
+  },
+  "2026-09-12": {
+   "fb_hylme": 28,
+   "line_priv": 3,
+   "fb_non": 2,
+   "fb_kaimun": 47
+  },
+  "2026-09-13": {
+   "fb_hylme": 29,
+   "fb_kaimun": 39
   }
  },
  "monthly": [
@@ -1286,6 +1374,6 @@
    "month": "2026-09"
   }
  ],
- "legacy_page_key_from_channel": 3767,
+ "legacy_page_key_from_channel": 0,
  "legacy_note": "ออเดอร์ที่ไม่มี page_key (โหลดเข้าฐานก่อนมี pipeline) อนุมานเพจจากคอลัมน์ channel — แยก LINE Privilege / Official ไม่ได้ จึงตกไปที่ line_off ทั้งหมด"
 }

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-12 13:20:37",
+ "generated_at": "2026-09-14 14:25:28",
  "note": "ยอดดิบเก็บใน orders · การปรับทุกครั้งอยู่ใน revenue_adjustment · ยอดที่แสดงอยู่ใน order_revenue — ไม่มีขั้นตอนไหนเขียนทับยอดดิบ",
  "monthly": [
   {
@@ -48,25 +48,25 @@
   },
   {
    "month": "2026-03",
-   "orders": 1414,
-   "raw": 1478449.9,
-   "reported": 1380516.34,
-   "delta": -97933.56,
-   "adjusted_orders": 894,
+   "orders": 1415,
+   "raw": 1480429.9,
+   "reported": 1380516.33,
+   "delta": -99913.57,
+   "adjusted_orders": 907,
    "pre_reconciled": 0,
    "sales_report": 1380516.57,
-   "vs_report": -0.23
+   "vs_report": -0.24
   },
   {
    "month": "2026-04",
-   "orders": 1391,
-   "raw": 1385042.13,
-   "reported": 1271492.7,
-   "delta": -113549.43,
-   "adjusted_orders": 997,
+   "orders": 1390,
+   "raw": 1383092.13,
+   "reported": 1271492.71,
+   "delta": -111599.42,
+   "adjusted_orders": 1004,
    "pre_reconciled": 0,
    "sales_report": 1271492.7,
-   "vs_report": 0.0
+   "vs_report": 0.01
   },
   {
    "month": "2026-05",
@@ -81,42 +81,42 @@
   },
   {
    "month": "2026-06",
-   "orders": 2646,
-   "raw": 2397270.24,
-   "reported": 1964996.39,
-   "delta": -432273.85,
-   "adjusted_orders": 1993,
+   "orders": 2665,
+   "raw": 2413634.42,
+   "reported": 1964996.46,
+   "delta": -448637.96,
+   "adjusted_orders": 2057,
    "pre_reconciled": 0,
    "sales_report": 1964996.7,
-   "vs_report": -0.31
+   "vs_report": -0.24
   },
   {
    "month": "2026-07",
-   "orders": 3577,
-   "raw": 2529978.25,
-   "reported": 2529978.25,
+   "orders": 3657,
+   "raw": 2580438.26,
+   "reported": 2580438.26,
    "delta": 0.0,
    "adjusted_orders": 0,
-   "pre_reconciled": 1562,
+   "pre_reconciled": 0,
    "sales_report": null,
    "vs_report": null
   },
   {
    "month": "2026-08",
-   "orders": 2904,
-   "raw": 2051518.41,
-   "reported": 2051518.41,
+   "orders": 3208,
+   "raw": 2260321.96,
+   "reported": 2260321.96,
    "delta": 0.0,
    "adjusted_orders": 0,
-   "pre_reconciled": 2904,
+   "pre_reconciled": 0,
    "sales_report": null,
    "vs_report": null
   },
   {
    "month": "2026-09",
-   "orders": 303,
-   "raw": 237585.03,
-   "reported": 237585.03,
+   "orders": 1362,
+   "raw": 1112237.77,
+   "reported": 1112237.77,
    "delta": 0.0,
    "adjusted_orders": 0,
    "pre_reconciled": 0,
@@ -127,8 +127,8 @@
  "by_rule": [
   {
    "rule": "daily_calibration",
-   "n_orders": 7427,
-   "total_delta": -847582.39,
+   "n_orders": 7511,
+   "total_delta": -863976.5,
    "source_kind": "sales_report_excel"
   }
  ],

@@ -33,19 +33,19 @@
  },
  {
   "month": "2026-03",
-  "orders": 1414,
-  "customers": 998,
-  "gross": 1380516.34,
+  "orders": 1415,
+  "customers": 999,
+  "gross": 1380516.33,
   "cancelled": 0.0,
-  "net": 1380516.34
+  "net": 1380516.33
  },
  {
   "month": "2026-04",
-  "orders": 1391,
-  "customers": 897,
-  "gross": 1271492.7,
+  "orders": 1390,
+  "customers": 896,
+  "gross": 1271492.71,
   "cancelled": 0.0,
-  "net": 1271492.7
+  "net": 1271492.71
  },
  {
   "month": "2026-05",
@@ -57,34 +57,34 @@
  },
  {
   "month": "2026-06",
-  "orders": 2646,
-  "customers": 1643,
-  "gross": 1964996.39,
+  "orders": 2665,
+  "customers": 1640,
+  "gross": 1964996.46,
   "cancelled": 0.0,
-  "net": 1964996.39
+  "net": 1964996.46
  },
  {
   "month": "2026-07",
-  "orders": 3577,
+  "orders": 3657,
   "customers": 2481,
-  "gross": 2529978.25,
+  "gross": 2580438.26,
   "cancelled": 0.0,
-  "net": 2529978.25
+  "net": 2580438.26
  },
  {
   "month": "2026-08",
-  "orders": 2904,
-  "customers": 2523,
-  "gross": 2051518.41,
+  "orders": 3208,
+  "customers": 2782,
+  "gross": 2260321.96,
   "cancelled": 0.0,
-  "net": 2051518.41
+  "net": 2260321.96
  },
  {
   "month": "2026-09",
-  "orders": 303,
-  "customers": 262,
-  "gross": 237585.03,
+  "orders": 1362,
+  "customers": 1199,
+  "gross": 1112237.77,
   "cancelled": 0.0,
-  "net": 237585.03
+  "net": 1112237.77
  }
 ]

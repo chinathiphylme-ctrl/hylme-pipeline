@@ -1,12 +1,12 @@
 {
  "schema_version": 2,
- "generated_at": "2026-09-12 13:20:37",
+ "generated_at": "2026-09-14 14:25:28",
  "date_from": "2025-11-01",
- "date_to": "2026-09-11",
- "orders": 19894,
- "gross": 16692515.47,
- "net": 16692515.47,
- "customers": 10242,
+ "date_to": "2026-09-13",
+ "orders": 21356,
+ "gross": 17826431.84,
+ "net": 17826431.84,
+ "customers": 11125,
  "teams": [
   {
    "key": "admin",
