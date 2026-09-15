@@ -2845,11 +2845,20 @@
  },
  {
   "date": "2026-09-13",
-  "orders": 68,
+  "orders": 69,
   "cancelled_orders": 0,
-  "gross": 55010.0,
+  "gross": 55476.0,
   "cancelled": 0.0,
-  "net": 55010.0,
+  "net": 55476.0,
   "free_orders": 0
+ },
+ {
+  "date": "2026-09-14",
+  "orders": 74,
+  "cancelled_orders": 0,
+  "gross": 54550.0,
+  "cancelled": 0.0,
+  "net": 54550.0,
+  "free_orders": 2
  }
 ]

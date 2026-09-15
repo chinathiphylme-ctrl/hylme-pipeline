@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-14 14:25:28",
+ "generated_at": "2026-09-15 10:54:57",
  "formula": {
   "primary": "closes / new_cust  (ปิดการขายจากไฟล์ออเดอร์ ÷ ลูกค้าใหม่จากไฟล์สถิติหน้า)",
   "file_based": "orders_file / new_cust  (ยอดออเดอร์ในไฟล์สถิติหน้า ÷ ลูกค้าใหม่)",
@@ -65,7 +65,7 @@
   ],
   "telesales": []
  },
- "n_files": 3,
+ "n_files": 4,
  "files": [
   {
    "file": "pages_statistics_page_0809.xlsx",
@@ -222,6 +222,60 @@
     "fb_non": {
      "new_cust": 8.0,
      "orders": 1.0
+    },
+    "fb_piw": {
+     "new_cust": 0.0,
+     "orders": 0.0
+    }
+   }
+  },
+  {
+   "file": "pages_statistics_page_1409.xlsx",
+   "pages": [
+    {
+     "id": "923678677500634",
+     "name": "Hylme ครบจบเรื่องนอน",
+     "key": "fb_non"
+    },
+    {
+     "id": "100379779472465",
+     "name": "Hylme",
+     "key": "fb_hylme"
+    },
+    {
+     "id": "516356078238016",
+     "name": "Hylme ครบจบเรื่องไขมัน",
+     "key": "fb_kaimun"
+    },
+    {
+     "id": "1008313615693207",
+     "name": "Hylme ครบจบเรื่องผิว",
+     "key": "fb_piw"
+    }
+   ],
+   "set_id": "fb_hylme+fb_kaimun+fb_non+fb_piw",
+   "from": "2026-09-14",
+   "to": "2026-09-14",
+   "n_days": 1,
+   "range_text": "14/09/2026 00:00:00 - 14/09/2026 23:59:59",
+   "by_time": {
+    "2026-09-14": {
+     "new_cust": 216.0,
+     "orders": 65.0
+    }
+   },
+   "by_page": {
+    "fb_hylme": {
+     "new_cust": 73.0,
+     "orders": 24.0
+    },
+    "fb_kaimun": {
+     "new_cust": 140.0,
+     "orders": 39.0
+    },
+    "fb_non": {
+     "new_cust": 3.0,
+     "orders": 2.0
     },
     "fb_piw": {
      "new_cust": 0.0,
@@ -1275,6 +1329,12 @@
   "2026-09-13": {
    "fb_hylme": 29,
    "fb_kaimun": 39
+  },
+  "2026-09-14": {
+   "fb_hylme": 24,
+   "line_priv": 5,
+   "fb_kaimun": 39,
+   "fb_non": 2
   }
  },
  "monthly": [
@@ -1283,9 +1343,10 @@
    "stat_dates": [
     "2026-09-08",
     "2026-09-10",
-    "2026-09-11"
+    "2026-09-11",
+    "2026-09-14"
    ],
-   "coverage": "3/3",
+   "coverage": "4/4",
    "skipped_files": [],
    "pages": [
     {
@@ -1293,36 +1354,36 @@
      "page": "FB Hylme",
      "platform": "Facebook",
      "color": "#1877F2",
-     "new_cust": 246.0,
-     "chat_new": 237.0,
-     "phone_new": 67.0,
-     "orders_file": 84.0,
-     "closes": 84,
-     "conv": 0.341463
+     "new_cust": 319.0,
+     "chat_new": 306.0,
+     "phone_new": 86.0,
+     "orders_file": 108.0,
+     "closes": 108,
+     "conv": 0.338558
     },
     {
      "key": "fb_kaimun",
      "page": "FB ครบจบเรื่องไขมัน",
      "platform": "Facebook",
      "color": "#1877F2",
-     "new_cust": 451.0,
-     "chat_new": 446.0,
-     "phone_new": 133.0,
-     "orders_file": 154.0,
-     "closes": 153,
-     "conv": 0.339246
+     "new_cust": 591.0,
+     "chat_new": 580.0,
+     "phone_new": 167.0,
+     "orders_file": 193.0,
+     "closes": 192,
+     "conv": 0.324873
     },
     {
      "key": "fb_non",
      "page": "FB ครบจบเรื่องนอน",
      "platform": "Facebook",
      "color": "#1877F2",
-     "new_cust": 19.0,
-     "chat_new": 16.0,
+     "new_cust": 22.0,
+     "chat_new": 18.0,
      "phone_new": 3.0,
-     "orders_file": 8.0,
-     "closes": 8,
-     "conv": 0.421053
+     "orders_file": 10.0,
+     "closes": 10,
+     "conv": 0.454545
     },
     {
      "key": "fb_piw",
@@ -1339,11 +1400,11 @@
    ],
    "combo": null,
    "total": {
-    "new_cust": 716.0,
-    "orders_file": 246.0,
-    "closes": 245,
-    "conv_closes": 0.342179,
-    "conv_file": 0.343575
+    "new_cust": 932.0,
+    "orders_file": 311.0,
+    "closes": 310,
+    "conv_closes": 0.332618,
+    "conv_file": 0.333691
    },
    "daily": [
     {
@@ -1369,6 +1430,14 @@
      "phone_new": 63.0,
      "orders_file": 77.0,
      "conv_file": 0.351598
+    },
+    {
+     "date": "2026-09-14",
+     "new_cust": 216.0,
+     "chat_new": 205.0,
+     "phone_new": 53.0,
+     "orders_file": 65.0,
+     "conv_file": 0.300926
     }
    ],
    "month": "2026-09"

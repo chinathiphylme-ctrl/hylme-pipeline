@@ -81,10 +81,10 @@
  },
  {
   "month": "2026-09",
-  "orders": 1362,
-  "customers": 1199,
-  "gross": 1112237.77,
+  "orders": 1437,
+  "customers": 1268,
+  "gross": 1167253.77,
   "cancelled": 0.0,
-  "net": 1112237.77
+  "net": 1167253.77
  }
 ]

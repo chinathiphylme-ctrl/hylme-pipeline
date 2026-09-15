@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14 14:25:28",
+ "generated_at": "2026-09-15 10:54:57",
  "note": "ยอดดิบเก็บใน orders · การปรับทุกครั้งอยู่ใน revenue_adjustment · ยอดที่แสดงอยู่ใน order_revenue — ไม่มีขั้นตอนไหนเขียนทับยอดดิบ",
  "monthly": [
   {
@@ -114,9 +114,9 @@
   },
   {
    "month": "2026-09",
-   "orders": 1362,
-   "raw": 1112237.77,
-   "reported": 1112237.77,
+   "orders": 1437,
+   "raw": 1167253.77,
+   "reported": 1167253.77,
    "delta": 0.0,
    "adjusted_orders": 0,
    "pre_reconciled": 0,
